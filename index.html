@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>РОШЕН-КОНДИТЕР</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="password-container">
+		<div class="image-logo">
+			<img src="logo.png" alt="logo roshen-kondyter">
+		</div>
+        <input type="text" id="password" placeholder="Введіть пароль агента">
+        <button onclick="checkPassword()">ПІДТВЕРДИТИ</button>
+    </div>
+    
+    <div id="page-wrap" style="display: none;">
+        <button onclick="openPricePage()">ПРАЙС</button>
+        <div class="orders-container">
+            <h2 id="agentName"></h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Пошук за ТТ або Адресою...">
+            </div>
+            <div class="table-responsive">
+                <table id="ordersTable">
+                    <thead>
+                        <tr>
+                            <th>Стадія</th>
+                            <th>ТТ</th>
+                            <th>Адреса</th>
+                            <th>Сума Замовлення</th>
+                            <th>Сума Рахунку</th>
+                            <th>Експедитор</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ordersBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+	<script src="index.js"></script>
+</body>
+</html>

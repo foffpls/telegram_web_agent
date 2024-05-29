@@ -1,0 +1,195 @@
+var passwordContainer = document.getElementById('password-container');
+if (passwordContainer) {
+    passwordContainer.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            checkPassword();
+        }
+    });
+}
+
+async function checkPassword() {
+			const password = document.getElementById('password').value;
+
+			try {
+				const response = await fetch('Orders.xml');
+				const text = await response.text();
+
+				const xmlDoc = new DOMParser().parseFromString(text, 'text/xml');
+				const agents = xmlDoc.getElementsByTagName('Agent');
+
+				let authenticated = Array.from(agents).some(agent => {
+					const login = agent.getAttribute('Login');
+					return login === password;
+				});
+				
+				// Перевірка наявності параметра логіну в URL
+				const urlParams = new URLSearchParams(window.location.search);
+				const agentParam = urlParams.get('agent');
+				if (agentParam) {
+					localStorage.setItem('agentLogin', agentParam);
+					document.getElementById('password-container').style.display = 'none';
+					document.getElementById('page-wrap').style.display = 'block';
+				}
+			
+				if (authenticated) {
+					localStorage.setItem('authenticated', 'true');
+					localStorage.setItem('agentLogin', password);
+					document.getElementById('password-container').style.display = 'none';
+					document.getElementById('page-wrap').style.display = 'block';
+				} else {
+					alert('Невірний логін');
+				}
+			} catch (error) {
+				console.error('Error loading or parsing XML:', error);
+			}
+			
+			
+		}
+		
+		function openPricePage() 
+		{
+							// Отримуємо значення логіну з localStorage
+				var agentLogin = localStorage.getItem('agentLogin');
+				
+				// Формуємо URL з параметром логіну
+				var url = 'price.html';
+				if (agentLogin !== null) {
+					url += '?agent=' + encodeURIComponent(agentLogin);
+				}
+
+				// Переходимо на сторінку index.html
+				window.location.href = url;
+			//window.location.href = 'price.html';
+		}
+		
+document.addEventListener("DOMContentLoaded", function() {
+	// Перевірка наявності параметра логіну в URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const agentParam = urlParams.get('agent');
+    if (agentParam) {
+        localStorage.setItem('agentLogin', agentParam);
+        document.getElementById('password-container').style.display = 'none';
+        document.getElementById('page-wrap').style.display = 'block';
+    }
+
+
+    // Запуск функції displayOrders після завантаження сторінки
+    displayOrders();
+
+    // Функція, яка приховує клавіатуру при втраті фокусу від поля пошуку
+    function hideKeyboard() {
+        document.activeElement.blur(); // Приховати клавіатуру
+    }
+
+    // Додаємо обробник події на втрату фокусу від поля пошуку
+    var searchInput = document.getElementById("searchInput");
+    if (searchInput) {
+        searchInput.addEventListener("blur", hideKeyboard);
+
+        // Додаємо обробник подій для пошуку
+        searchInput.addEventListener("keyup", searchOrders);
+    }
+
+    // Додаємо обробник події на прокручування сторінки для приховання клавіатури
+    window.addEventListener("scroll", hideKeyboard);
+});
+
+function displayOrders() {
+    var passwordInput = document.getElementById("password");
+	var agentLogin = passwordInput ? passwordInput.value.trim() : null;
+
+	// Якщо значення логіну дорівнює null або порожній строкі, отримуємо його з локального сховища
+	if (agentLogin === null || agentLogin === "") {
+		agentLogin = localStorage.getItem('agentLogin');
+	}
+
+	// Якщо знайдено збережений логін або поле вводу не порожнє, встановлюємо його в поле вводу
+	if (agentLogin !== null && passwordInput) {
+		passwordInput.value = agentLogin;
+	}
+
+	// Якщо знайдено збережений логін або поле вводу не порожнє, запускаємо перевірку пароля
+	if (agentLogin !== null && agentLogin !== "") {
+		checkPassword();
+	}
+	
+	
+    // Запит на отримання XML-файлу з замовленнями
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", "Orders.xml", true);
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var xmlDoc = xmlhttp.responseXML;
+            var agents = xmlDoc.getElementsByTagName("Agent");
+
+            // Пошук агента за логіном
+            for (var i = 0; i < agents.length; i++) {
+                var agent = agents[i];
+                var login = agent.getAttribute("Login");
+                if (login === agentLogin) {
+                    displayOrdersContent(agent);
+                    return; // Завершуємо функцію після знаходження агента
+                }
+            }
+        }
+    };
+    xmlhttp.send();
+}
+
+// Функція для відображення замовлень після успішної перевірки логіну
+function displayOrdersContent(agent) {
+    var agentName = agent.getAttribute("AgentName");
+    var orders = agent.getElementsByTagName("Order");
+    var agentNameElement = document.getElementById("agentName");
+    var ordersTableBody = document.getElementById("ordersBody");
+
+    // Виведення ім'я агента
+    agentNameElement.textContent = "Агент: " + agentName;
+
+    // Виведення інформації по замовленнях агента у вигляді табличок
+    ordersTableBody.innerHTML = "";
+    for (var i = 0; i < orders.length; i++) {
+        var order = orders[i];
+        var stage = order.getAttribute("Stage");
+        var tt = order.getAttribute("TT");
+        var address = order.getAttribute("Adress");
+        var sumOrder = order.getAttribute("SumOrder");
+        var sumInvoice = order.getAttribute("SumInvoice");
+        var xpEditor = order.getAttribute("XPEditor");
+
+        var row = document.createElement("tr");
+        row.setAttribute("data-stage", stage); // Встановлюємо атрибут data-stage
+        row.innerHTML = 
+            "<td>" + stage + "</td>" +
+            "<td>" + tt + "</td>" +
+            "<td>" + address + "</td>" +
+            "<td>" + sumOrder + "</td>" +
+            "<td>" + sumInvoice + "</td>" +
+            "<td>" + xpEditor + "</td>";
+
+        ordersTableBody.appendChild(row);
+    }
+}
+
+// Функція для пошуку замовлень
+function searchOrders() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("searchInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("ordersTable");
+    tr = table.getElementsByTagName("tr");
+
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[1]; // Вибираємо другу комірку (ТТ) для пошуку
+        var tdAddress = tr[i].getElementsByTagName("td")[2]; // Вибираємо третю комірку (Адреса) для пошуку
+        if (td && tdAddress) {
+            txtValue = td.textContent || td.innerText;
+            txtAddressValue = tdAddress.textContent || tdAddress.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1 || txtAddressValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
