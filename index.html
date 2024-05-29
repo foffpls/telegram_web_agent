@@ -58,8 +58,12 @@
 			var url = 'index.html';
 			window.location.href = url;
 			
+			document.getElementById('password').value = '';
+			
 			document.getElementById('page-wrap').style.display = 'none';
             document.getElementById('password-container').style.display = 'block';
+			
+			closeModal(); 
 		}
 	</script>
 </body>

@@ -49,48 +49,71 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Функція для завантаження даних та фільтрації
     function loadDataAndFilter() {
-        loadXMLData();
+		loadXMLData();
         filterItems();
     }
 
     // Функція для фільтрації товарів
-    function filterItems() {
-        var searchValue = searchInput.value.toLowerCase();
-        var filterValue = document.querySelector('input[type="radio"]:checked').value;
-        var showWarehouse7 = warehouse7Radio.checked;
-        var showWarehouseIncome = warehouseIncomeRadio.checked;
-        var showWeight = weightRadio.checked;
-        var showPackaged = packagedRadio.checked;
-        var showAll = allRadio.checked;
+	function filterItems() {
+		var searchValue = searchInput.value.toLowerCase();
+		var filterValue = document.querySelector('input[type="radio"]:checked').value;
+		var showWarehouse7 = warehouse7Radio.checked;
+		var showWarehouseIncome = warehouseIncomeRadio.checked;
+		var showWeight = weightRadio.checked;
+		var showPackaged = packagedRadio.checked;
+		var showAll = allRadio.checked;
 
-        var rows = tableBody.getElementsByTagName("tr");
+		var rows = tableBody.getElementsByTagName("tr");
+		var displayedGroups = {};
 
-        for (var i = 0; i < rows.length; i++) {
-            var itemName = rows[i].getElementsByTagName("td")[0]?.innerText.toLowerCase();
-            var groupName = rows[i].getAttribute("data-group");
+		// Показуємо всі рядки груп
+		for (var i = 0; i < rows.length; i++) {
+			var groupName = rows[i].getAttribute("data-group");
+			if (rows[i].classList.contains("group-row")) {
+				rows[i].style.display = "";
+				displayedGroups[groupName] = false; // Ініціалізуємо всі групи як невідображені
+			}
+		}
 
-            if (itemName) {
-                var matchesSearch = itemName.includes(searchValue);
-                var matchesFilter = (showAll ||
-                    (showWeight && isWeightGroup(groupName)) ||
-                    (showPackaged && isPackagedGroup(groupName))
-                );
+		for (var i = 0; i < rows.length; i++) {
+			var itemName = rows[i].getElementsByTagName("td")[0]?.innerText.toLowerCase();
+			var groupName = rows[i].getAttribute("data-group");
 
-                var isInWarehouse7 = rows[i].classList.contains("warehouse-7");
-                var isInWarehouseIncome = rows[i].classList.contains("warehouse-income");
+			if (itemName) {
+				var matchesSearch = itemName.includes(searchValue);
+				var matchesFilter = (showAll ||
+					(showWeight && isWeightGroup(groupName)) ||
+					(showPackaged && isPackagedGroup(groupName))
+				);
 
-                var shouldDisplay = matchesSearch && matchesFilter &&
-                    ((showWarehouse7 && isInWarehouse7) ||
-                    (showWarehouseIncome && isInWarehouseIncome));
+				var isInWarehouse7 = rows[i].classList.contains("warehouse-7");
+				var isInWarehouseIncome = rows[i].classList.contains("warehouse-income");
 
-                if (shouldDisplay) {
-                    rows[i].style.display = "";
-                } else {
-                    rows[i].style.display = "none";
-                }
-            }
-        }
-    }
+				var shouldDisplay = matchesSearch && matchesFilter &&
+					((showWarehouse7 && isInWarehouse7) ||
+					(showWarehouseIncome && isInWarehouseIncome));
+
+				if (shouldDisplay) {
+					rows[i].style.display = "";
+					// Встановлюємо відповідну властивість в об'єкті displayedGroups на true,
+					// якщо є хоча б один відображений елемент з цієї групи
+					displayedGroups[groupName] = true;
+				} else {
+					rows[i].style.display = "none";
+				}
+			}
+		}
+
+		// Приховуємо рядки груп, до яких не належить жоден елемент
+		var groupRows = tableBody.getElementsByClassName("group-row");
+		for (var i = 0; i < groupRows.length; i++) {
+			var groupName = groupRows[i].getAttribute("data-group");
+			if (!displayedGroups[groupName]) {
+				groupRows[i].style.display = "none";
+			}
+		}
+	}
+
 
     function isWeightGroup(groupName) {
         var weightGroups = new Set([
@@ -116,85 +139,90 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function loadXMLData() {
-		var xmlhttp = new XMLHttpRequest();
-		xmlhttp.open("GET", "Price.xml", true);
-		xmlhttp.onreadystatechange = function() {
-			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", "Price.xml", true);
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var xmlDoc = xmlhttp.responseXML;
+            var goods = xmlDoc.getElementsByTagName("Goods");
+            var groupedItems = {};
 
-				var xmlDoc = xmlhttp.responseXML;
-				var goods = xmlDoc.getElementsByTagName("Goods");
-				var groupedItems = {};
+            for (var i = 0; i < goods.length; i++) {
+                var item = goods[i];
+                var groupName = item.getAttribute("Group");
 
-				for (var i = 0; i < goods.length; i++) {
-					var item = goods[i];
-					var groupName = item.getAttribute("Group");
+                if (!groupedItems[groupName]) {
+                    groupedItems[groupName] = [];
+                }
 
-					if (!groupedItems[groupName]) {
-						groupedItems[groupName] = [];
-					}
+                groupedItems[groupName].push(item);
+            }
 
-					groupedItems[groupName].push(item);
-				}
+            var excludedGroups = new Set(["Побутові товари", "Архив", "Поддони"]);
 
-				var excludedGroups = new Set(["Побутові товари", "Архив", "Поддони"]);
+            for (var groupName in groupedItems) {
+                if (excludedGroups.has(groupName)) {
+                    continue;
+                }
 
-				for (var groupName in groupedItems) {
-					if (excludedGroups.has(groupName)) {
-						continue;
-					}
+                var groupRow = document.createElement("tr");
+                groupRow.innerHTML = "<td colspan='3'><b>Група " + groupName + "</b></td>";
+                groupRow.classList.add("group-row");
+                tableBody.appendChild(groupRow);
 
-					var groupRow = document.createElement("tr");
-					groupRow.innerHTML = "<td colspan='3'><b>Група " + groupName + "</b></td>";
-					groupRow.classList.add("group-row");
-					tableBody.appendChild(groupRow);
+                groupRow.addEventListener("click", function () {
+                    toggleGroupItems(this);
+                });
 
-					groupRow.addEventListener("click", function() {
-						toggleGroupItems(this);
-					});
+                var items = groupedItems[groupName];
+                for (var j = 0; j < items.length; j++) {
+                    var item = items[j];
+                    var itemName = item.getAttribute("Name");
+                    var itemPriceStr = item.getAttribute("Price");
+                    var itemPrice = parseFloat(itemPriceStr.replace(',', '.')) * 1.2;
+                    var formattedPrice = itemPrice.toFixed(2);
+                    var itemLeftover = item.getAttribute("Leftover");
 
-					var items = groupedItems[groupName];
-					for (var j = 0; j < items.length; j++) {
-						var item = items[j];
-						var itemName = item.getAttribute("Name");
-						var itemPriceStr = item.getAttribute("Price");
-						var itemPrice = parseFloat(itemPriceStr.replace(',', '.')) * 1.2;
-						var formattedPrice = itemPrice.toFixed(2);
-						var itemLeftover = item.getAttribute("Leftover");
+                    var itemRow = document.createElement("tr");
+                    itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td>";
 
-						var itemRow = document.createElement("tr");
-						itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td>";
+                    var parentTagName = item.parentNode.tagName;
+                    var parentOfParentTagName = item.parentNode.parentNode.tagName;
 
-						var parentTagName = item.parentNode.tagName;
-						var parentOfParentTagName = item.parentNode.parentNode.tagName;
+                    var skipRow = false;
 
-						var skipRow = false;
+                    if (parentOfParentTagName === "Income") {
+                        itemRow.classList.add("warehouse-income");
+                    } else if (parentOfParentTagName === "Leftovers") {
+                        var warehouseName = item.parentNode.getAttribute("Name");
+                        if (warehouseName === "Склад Акция") {
+                            skipRow = true;
+                        } else {
+                            itemRow.classList.add("warehouse-7");
+                        }
+                    }
 
-						if (parentOfParentTagName === "Income") {
-							itemRow.classList.add("warehouse-income");
-						} else if (parentOfParentTagName === "Leftovers") {
-							var warehouseName = item.parentNode.getAttribute("Name");
-							if (warehouseName === "Склад Акция") {
-								skipRow = true;
-							} else {
-								itemRow.classList.add("warehouse-7");
-							}
-						}
+                    if (skipRow) {
+                        continue;
+                    }
 
-						if (skipRow) {
-							continue;
-						}
+                    itemRow.classList.add("group-" + groupName.toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, "") + "-item", "product-row");
+                    itemRow.setAttribute("data-group", groupName);
+                    itemRow.style.display = "none";
 
-						itemRow.classList.add("group-" + groupName.toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, "") + "-item", "product-row");
-						itemRow.setAttribute("data-group", groupName);
-						itemRow.style.display = "none";
+                    tableBody.appendChild(itemRow);
+                }
+            }
 
-						tableBody.appendChild(itemRow);
-					}
-				}
-			}
-		};
-		xmlhttp.send();
-	}
+            // Показуємо всі рядки груп при завантаженні сторінки
+            var groupRows = document.querySelectorAll(".group-row");
+            for (var k = 0; k < groupRows.length; k++) {
+                groupRows[k].style.display = "";
+            }
+        }
+    };
+    xmlhttp.send();
+}
 
     function toggleGroupItems(groupRow) {
         var groupClass = groupRow.innerText.trim().substring(6).trim().toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, "");
@@ -212,5 +240,5 @@ document.addEventListener("DOMContentLoaded", function() {
         for (var j = 0; j < groupItems.length; j++) {
             groupItems[j].style.display = anyHidden ? "" : "none";
         }
-    }     	
+    }   	filterItems();  	
 });
