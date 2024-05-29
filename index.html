@@ -11,12 +11,15 @@
 		<div class="image-logo">
 			<img src="logo.png" alt="logo roshen-kondyter">
 		</div>
-        <input type="text" id="password" placeholder="Введіть пароль агента">
+        <input type="text" id="password" placeholder="Введіть логін агента...">
         <button onclick="checkPassword()">ПІДТВЕРДИТИ</button>
     </div>
     
     <div id="page-wrap" style="display: none;">
-        <button onclick="openPricePage()">ПРАЙС</button>
+		<div class="menu-buttons">
+			<button onclick="openPricePage()">ПРАЙС</button>
+			<button onclick="clearLocalStorage()">ВИХІД</button>
+		</div>
         <div class="orders-container">
             <h2 id="agentName"></h2>
             <div class="search-container">
@@ -40,5 +43,24 @@
         </div>
     </div>
 	<script src="index.js"></script>
+	<script>
+		function openPricePage(){
+			var agentLogin = localStorage.getItem('agentLogin');
+			var url = 'price.html';
+			if (agentLogin !== null) {
+				url += '?agent=' + encodeURIComponent(agentLogin);
+			}
+			window.location.href = url;
+		}
+		
+		function clearLocalStorage() {
+			localStorage.clear();
+			var url = 'index.html';
+			window.location.href = url;
+			
+			document.getElementById('page-wrap').style.display = 'none';
+            document.getElementById('password-container').style.display = 'block';
+		}
+	</script>
 </body>
 </html>

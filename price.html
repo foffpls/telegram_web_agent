@@ -9,7 +9,8 @@
 <body>
     <div id="content">
         <div class="menu-buttons">
-            <button id="orderButton" onclick="openIndexPage()">Замовлення ТА</button>
+            <button onclick="openIndexPage()">ЗАМОВЛЕННЯ</button>
+			<button onclick="clearLocalStorage()">ВИХІД</button>
         </div>
         <div class="container">
             <div class="search-container">
@@ -55,20 +56,29 @@
         </div>
     </div>
     <script src="price.js"></script>
-		<script>
-			function openIndexPage() {
-				// Отримуємо значення логіну з localStorage
-				var agentLogin = localStorage.getItem('agentLogin');
-				
-				// Формуємо URL з параметром логіну
-				var url = 'index.html';
-				if (agentLogin !== null) {
-					url += '?agent=' + encodeURIComponent(agentLogin);
-				}
-
-				// Переходимо на сторінку index.html
-				window.location.href = url;
+	<script>
+		function openIndexPage() {
+			// Отримуємо значення логіну з localStorage
+			var agentLogin = localStorage.getItem('agentLogin');
+			
+			// Формуємо URL з параметром логіну
+			var url = 'index.html';
+			if (agentLogin !== null) {
+				url += '?agent=' + encodeURIComponent(agentLogin);
 			}
-    </script>
+
+			// Переходимо на сторінку index.html
+			window.location.href = url;
+		}
+		
+		function clearLocalStorage() {
+			localStorage.clear();
+			var url = 'index.html';
+			window.location.href = url;
+			
+			document.getElementById('container').style.display = 'none';
+            document.getElementById('password-container').style.display = 'block';
+		}
+	</script>
 </body>
 </html>

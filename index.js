@@ -7,63 +7,8 @@ if (passwordContainer) {
     });
 }
 
-async function checkPassword() {
-			const password = document.getElementById('password').value;
-
-			try {
-				const response = await fetch('Orders.xml');
-				const text = await response.text();
-
-				const xmlDoc = new DOMParser().parseFromString(text, 'text/xml');
-				const agents = xmlDoc.getElementsByTagName('Agent');
-
-				let authenticated = Array.from(agents).some(agent => {
-					const login = agent.getAttribute('Login');
-					return login === password;
-				});
-				
-				// Перевірка наявності параметра логіну в URL
-				const urlParams = new URLSearchParams(window.location.search);
-				const agentParam = urlParams.get('agent');
-				if (agentParam) {
-					localStorage.setItem('agentLogin', agentParam);
-					document.getElementById('password-container').style.display = 'none';
-					document.getElementById('page-wrap').style.display = 'block';
-				}
-			
-				if (authenticated) {
-					localStorage.setItem('authenticated', 'true');
-					localStorage.setItem('agentLogin', password);
-					document.getElementById('password-container').style.display = 'none';
-					document.getElementById('page-wrap').style.display = 'block';
-				} else {
-					alert('Невірний логін');
-				}
-			} catch (error) {
-				console.error('Error loading or parsing XML:', error);
-			}
-			
-			
-		}
-		
-		function openPricePage() 
-		{
-							// Отримуємо значення логіну з localStorage
-				var agentLogin = localStorage.getItem('agentLogin');
-				
-				// Формуємо URL з параметром логіну
-				var url = 'price.html';
-				if (agentLogin !== null) {
-					url += '?agent=' + encodeURIComponent(agentLogin);
-				}
-
-				// Переходимо на сторінку index.html
-				window.location.href = url;
-			//window.location.href = 'price.html';
-		}
-		
-document.addEventListener("DOMContentLoaded", function() {
-	// Перевірка наявності параметра логіну в URL
+document.addEventListener("DOMContentLoaded", function () {
+    // Перевірка наявності параметра логіну в URL
     const urlParams = new URLSearchParams(window.location.search);
     const agentParam = urlParams.get('agent');
     if (agentParam) {
@@ -71,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('password-container').style.display = 'none';
         document.getElementById('page-wrap').style.display = 'block';
     }
-
 
     // Запуск функції displayOrders після завантаження сторінки
     displayOrders();
@@ -95,32 +39,30 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function displayOrders() {
-    var passwordInput = document.getElementById("password");
-	var agentLogin = passwordInput ? passwordInput.value.trim() : null;
-
-	// Якщо значення логіну дорівнює null або порожній строкі, отримуємо його з локального сховища
-	if (agentLogin === null || agentLogin === "") {
-		agentLogin = localStorage.getItem('agentLogin');
-	}
-
-	// Якщо знайдено збережений логін або поле вводу не порожнє, встановлюємо його в поле вводу
-	if (agentLogin !== null && passwordInput) {
-		passwordInput.value = agentLogin;
-	}
-
-	// Якщо знайдено збережений логін або поле вводу не порожнє, запускаємо перевірку пароля
-	if (agentLogin !== null && agentLogin !== "") {
-		checkPassword();
-	}
-	
-	
     // Запит на отримання XML-файлу з замовленнями
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET", "Orders.xml", true);
-    xmlhttp.onreadystatechange = function() {
+    xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var xmlDoc = xmlhttp.responseXML;
             var agents = xmlDoc.getElementsByTagName("Agent");
+            var passwordInput = document.getElementById("password");
+            var agentLogin = passwordInput ? passwordInput.value.trim() : null;
+
+            // Якщо значення логіну дорівнює null або порожній строкі, отримуємо його з локального сховища
+            if (agentLogin === null || agentLogin === "") {
+                agentLogin = localStorage.getItem('agentLogin');
+            }
+
+            // Якщо знайдено збережений логін або поле вводу не порожнє, встановлюємо його в поле вводу
+            if (agentLogin !== null && passwordInput) {
+                passwordInput.value = agentLogin;
+            }
+
+            // Перевіряємо, чи поле вводу пароля порожнє перед викликом перевірки пароля
+            if (passwordInput && passwordInput.value.trim() !== "") {
+                checkPassword();
+            }
 
             // Пошук агента за логіном
             for (var i = 0; i < agents.length; i++) {
@@ -134,6 +76,36 @@ function displayOrders() {
         }
     };
     xmlhttp.send();
+}
+
+async function checkPassword() {
+    const password = document.getElementById('password').value;
+
+    try {
+        const response = await fetch('Orders.xml');
+        const text = await response.text();
+
+        const xmlDoc = new DOMParser().parseFromString(text, 'text/xml');
+        const agents = xmlDoc.getElementsByTagName('Agent');
+
+        let authenticated = Array.from(agents).some(agent => {
+            const login = agent.getAttribute('Login');
+            return login === password;
+        });
+
+        if (authenticated) {
+            localStorage.setItem('authenticated', 'true');
+            localStorage.setItem('agentLogin', password);
+            document.getElementById('password-container').style.display = 'none';
+            document.getElementById('page-wrap').style.display = 'block';
+			
+			displayOrders();
+        } else {
+            alert('Невірний логін');
+        }
+    } catch (error) {
+        console.error('Error loading or parsing XML:', error);
+    }
 }
 
 // Функція для відображення замовлень після успішної перевірки логіну
@@ -159,7 +131,7 @@ function displayOrdersContent(agent) {
 
         var row = document.createElement("tr");
         row.setAttribute("data-stage", stage); // Встановлюємо атрибут data-stage
-        row.innerHTML = 
+        row.innerHTML =
             "<td>" + stage + "</td>" +
             "<td>" + tt + "</td>" +
             "<td>" + address + "</td>" +
@@ -169,6 +141,7 @@ function displayOrdersContent(agent) {
 
         ordersTableBody.appendChild(row);
     }
+	searchOrders();
 }
 
 // Функція для пошуку замовлень

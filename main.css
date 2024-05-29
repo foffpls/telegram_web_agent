@@ -3,24 +3,47 @@ body {
     background-color: #ffe394;
 }
 
-.password-container input[type="text"] {
+#password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    background-color: #ffe394;
+    padding: 20px; /* Додаємо відступи, щоб забезпечити відступи від країв екрану */
+    box-sizing: border-box; /* Забезпечуємо коректний підрахунок розмірів елементів */
+}
+
+#password-container input#password {
+padding: 10px 5px;
+    font-size: 14px;
     width: 100%;
-    max-width: 100%;
-    margin-top: 1%;
-    font-size: 16px; 
-    padding: 10px 0px;
-    border-radius: 5px;   
+    margin-bottom: 10px; /* Відступ знизу */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    box-sizing: border-box; /* Враховуємо padding і border в ширині елемента */
 }
 
-.image-logo {
-    width: 100%; 
-    margin: 0 auto; 
+#password-container input#password:focus {
+	border-color: #007bff; /* Змінюємо колір рамки при фокусі */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
 }
 
-.image-logo img {
-    width: 100%; 
-    height: auto; 
-    display: block;
+#password-container .image-logo {
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#password-container img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-buttons {
+    display: flex; /* Використовуємо Flexbox для розміщення елементів в один рядок */
+    gap: 10px; /* Відстань між кнопками */
 }
 
 button {
@@ -40,6 +63,7 @@ button {
 
 button:hover {
     background-color: #111;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
 }
 
 .orders-container { /*Файл index.html*/
@@ -70,6 +94,11 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+.search-container:hover {
+	border-color: #007bff; /* Змінюємо колір рамки при фокусі */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
 }
 
 table {
