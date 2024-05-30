@@ -189,5 +189,9 @@ tbody tr[data-stage="Отменен"] {
 }
 
 .warehouse-income td {
-    background-color: #abfc90; /* Зелений колір для Надходжень */
+    background-color: #57d98b; /* Зелений колір для Надходжень */
+}
+
+.warehouse-vip td {
+    background-color: #83bfd4; /* Зелений колір для Надходжень */
 }
