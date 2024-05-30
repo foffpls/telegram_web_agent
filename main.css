@@ -172,7 +172,7 @@ tbody tr[data-stage="Отменен"] {
     background-color: #ffe394;
 	transition: background-color 0.3s;
 	font-size: 10px;
-	text-align: center;
+	text-align: left;
 }
 .group-row:hover, .product-row:hover {
     background-color: #fff;
