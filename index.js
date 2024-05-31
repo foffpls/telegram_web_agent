@@ -127,6 +127,7 @@ function displayOrdersContent(agent) {
         var address = order.getAttribute("Adress");
         var sumOrder = order.getAttribute("SumOrder");
         var sumInvoice = order.getAttribute("SumInvoice");
+		var InvoiceNumber = order.getAttribute("InvoiceNumber");
         var xpEditor = order.getAttribute("XPEditor");
 
         var row = document.createElement("tr");
@@ -137,6 +138,7 @@ function displayOrdersContent(agent) {
             "<td>" + address + "</td>" +
             "<td>" + sumOrder + "</td>" +
             "<td>" + sumInvoice + "</td>" +
+			"<td>" + InvoiceNumber + "</td>" +
             "<td>" + xpEditor + "</td>";
 
         ordersTableBody.appendChild(row);
