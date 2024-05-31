@@ -73,19 +73,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Завантаження даних та фільтрація
     loadDataAndFilter();
-	
+    
     function loadDataAndFilter() {
         loadXMLData(filterItems);
     }
-	
-	searchInput.addEventListener("input", function() {
-		if (searchInput.value.trim() === "") {
-			searchFilterActive = false;
-		} else {
-			searchFilterActive = true;
-		}
-		filterItems();
-	});
+    
+    searchInput.addEventListener("input", function() {
+        if (searchInput.value.trim() === "") {
+            searchFilterActive = false;
+        } else {
+            searchFilterActive = true;
+        }
+        filterItems();
+    });
 
     function loadXMLData(callback) {
         var xmlhttp = new XMLHttpRequest();
@@ -107,9 +107,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     groupedItems[groupName].push(item);
                 }
 
+                // Сортування груп за алфавітом
+                var sortedGroupNames = Object.keys(groupedItems).sort();
+
                 var excludedGroups = new Set(["Побутові товари", "Архив", "Поддони"]);
 
-                for (var groupName in groupedItems) {
+                for (var k = 0; k < sortedGroupNames.length; k++) {
+                    var groupName = sortedGroupNames[k];
+
                     if (excludedGroups.has(groupName)) {
                         continue;
                     }
@@ -126,6 +131,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     });
 
                     var items = groupedItems[groupName];
+
+                    // Сортування товарів в межах групи за алфавітом
+                    items.sort((a, b) => {
+                        var nameA = a.getAttribute("Name").toLowerCase();
+                        var nameB = b.getAttribute("Name").toLowerCase();
+                        if (nameA < nameB) return -1;
+                        if (nameA > nameB) return 1;
+                        return 0;
+                    });
+
                     for (var j = 0; j < items.length; j++) {
                         var item = items[j];
                         var itemName = item.getAttribute("Name");
@@ -230,10 +245,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         var groupRows = tableBody.getElementsByClassName("group-row");
-		if (!searchFilterActive) {
-			closeAllGroups();
-		}
-		
+        if (!searchFilterActive) {
+            closeAllGroups();
+        }
+        
         for (var i = 0; i < groupRows.length; i++) {
             var groupName = groupRows[i].getAttribute("data-group");
             if (!displayedGroups[groupName]) {
@@ -248,7 +263,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     }
-	
 
     function toggleGroupItems(groupRow) {
         var groupClass = groupRow.innerText.trim().substring(6).trim().toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, "");
@@ -294,7 +308,6 @@ document.addEventListener("DOMContentLoaded", function () {
         groupStates[groupName] = !isExpanded;
     }
 });
-
 
 function closeAllGroups() {
     var tableBody = document.getElementById("priceList").getElementsByTagName("tbody")[0];
