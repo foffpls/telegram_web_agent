@@ -138,8 +138,8 @@ function displayOrdersContent(agent) {
             "<td>" + address + "</td>" +
             "<td>" + sumOrder + "</td>" +
             "<td>" + sumInvoice + "</td>" +
-			"<td>" + InvoiceNumber + "</td>" +
-            "<td>" + xpEditor + "</td>";
+            "<td>" + xpEditor + "</td>" +
+			"<td>" + InvoiceNumber + "</td>";
 
         ordersTableBody.appendChild(row);
     }
