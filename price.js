@@ -4,32 +4,35 @@ var searchFilterActive = false;
 document.addEventListener("DOMContentLoaded", function () {
     var tableBody = document.getElementById("priceList").getElementsByTagName("tbody")[0];
 
-    async function checkPassword() {
-        const password = document.getElementById('password').value;
+	async function checkPassword() {
+		const password = document.getElementById('password').value;
 
-        try {
-            const response = await fetch('Orders.xml');
-            const text = await response.text();
+		try {
+			const response = await fetch('Orders.xml');
+			const text = await response.text();
 
-            const xmlDoc = new DOMParser().parseFromString(text, 'text/xml');
-            const agents = xmlDoc.getElementsByTagName('Agent');
+			const xmlDoc = new DOMParser().parseFromString(text, 'text/xml');
+			const agents = xmlDoc.getElementsByTagName('Agent');
 
-            let authenticated = Array.from(agents).some(agent => {
-                const login = agent.getAttribute('Login');
-                return login === password;
-            });
+			let authenticated = Array.from(agents).some(agent => {
+				const login = agent.getAttribute('Login');
+				return login === password;
+			});
 
-            if (authenticated) {
-                localStorage.setItem('authenticated', 'true');
-                document.getElementById('password-container').style.display = 'none';
-                document.getElementById('content').style.display = 'block';
-            } else {
-                alert('Невірний логін');
-            }
-        } catch (error) {
-            console.error('Error loading or parsing XML:', error);
-        }
-    }
+			if (authenticated || password.startsWith('UA002-0')) {
+				localStorage.setItem('authenticated', 'true');
+				localStorage.setItem('agentLogin', password);
+				document.getElementById('password-container').style.display = 'none';
+				document.getElementById('page-wrap').style.display = 'block';
+
+				displayOrders();
+			} else {
+				alert('Невірний логін');
+			}
+		} catch (error) {
+			console.error('Error loading or parsing XML:', error);
+		}
+	}
 
     function isWeightGroup(groupName) {
         var weightGroups = new Set([
