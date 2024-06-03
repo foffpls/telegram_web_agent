@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin-top: 1px;
     height: 97vh;
     background-color: #ffe394;
     padding: 20px; /* Додаємо відступи, щоб забезпечити відступи від країв екрану */
@@ -29,11 +29,6 @@ body {
 #password-container input#password:focus {
 	border-color: #007bff; /* Змінюємо колір рамки при фокусі */
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
-}
-
-#password-container .image-logo {
-	margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 #password-container img {
@@ -179,9 +174,6 @@ tbody tr[data-stage="Отменен"] {
     cursor: pointer;
 	color: #111;
 }
-
-
-
 
 /* Склади */
 .warehouse-akciya td {
