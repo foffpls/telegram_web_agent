@@ -128,8 +128,8 @@ function displayOrdersContent(agent) {
         var stage = order.getAttribute("Stage");
         var tt = order.getAttribute("TT");
         var address = order.getAttribute("Adress");
-        var sumOrder = parseFloat(order.getAttribute("SumOrder")) || 0;
-        var sumInvoice = parseFloat(order.getAttribute("SumInvoice")) || 0;
+        var sumOrder = parseFloat(formatAmount(order.getAttribute("SumOrder"))) || 0;
+        var sumInvoice = parseFloat(formatAmount(order.getAttribute("SumInvoice"))) || 0;
         var InvoiceNumber = order.getAttribute("InvoiceNumber");
         var xpEditor = order.getAttribute("XPEditor");
 
@@ -150,7 +150,7 @@ function displayOrdersContent(agent) {
         ordersTableBody.appendChild(row);
     }
 
-// Додаємо підсумковий рядок
+    // Додаємо підсумковий рядок
     var totalRow = document.createElement("tr");
     totalRow.style.backgroundColor = "#ffffff"; // встановлення білого фону
     totalRow.innerHTML =
@@ -162,6 +162,11 @@ function displayOrdersContent(agent) {
     ordersTableBody.appendChild(totalRow);
 
     searchOrders();
+}
+
+function formatAmount(amount) {
+    // Видалення пробілів між тисячами та заміна коми на крапку
+    return amount.replace(/\s/g, "").replace(",", ".");
 }
 
 
