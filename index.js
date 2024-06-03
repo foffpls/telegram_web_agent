@@ -120,15 +120,21 @@ function displayOrdersContent(agent) {
 
     // Виведення інформації по замовленнях агента у вигляді табличок
     ordersTableBody.innerHTML = "";
+    var totalSumOrder = 0;
+    var totalSumInvoice = 0;
+
     for (var i = 0; i < orders.length; i++) {
         var order = orders[i];
         var stage = order.getAttribute("Stage");
         var tt = order.getAttribute("TT");
         var address = order.getAttribute("Adress");
-        var sumOrder = order.getAttribute("SumOrder");
-        var sumInvoice = order.getAttribute("SumInvoice");
-		var InvoiceNumber = order.getAttribute("InvoiceNumber");
+        var sumOrder = parseFloat(order.getAttribute("SumOrder")) || 0;
+        var sumInvoice = parseFloat(order.getAttribute("SumInvoice")) || 0;
+        var InvoiceNumber = order.getAttribute("InvoiceNumber");
         var xpEditor = order.getAttribute("XPEditor");
+
+        totalSumOrder += sumOrder;
+        totalSumInvoice += sumInvoice;
 
         var row = document.createElement("tr");
         row.setAttribute("data-stage", stage); // Встановлюємо атрибут data-stage
@@ -136,15 +142,28 @@ function displayOrdersContent(agent) {
             "<td>" + stage + "</td>" +
             "<td>" + tt + "</td>" +
             "<td>" + address + "</td>" +
-            "<td>" + sumOrder + "</td>" +
-            "<td>" + sumInvoice + "</td>" +
+            "<td>" + sumOrder.toFixed(2) + "</td>" +
+            "<td>" + sumInvoice.toFixed(2) + "</td>" +
             "<td>" + xpEditor + "</td>" +
-			"<td>" + InvoiceNumber + "</td>";
+            "<td>" + InvoiceNumber + "</td>";
 
         ordersTableBody.appendChild(row);
     }
-	searchOrders();
+
+// Додаємо підсумковий рядок
+    var totalRow = document.createElement("tr");
+    totalRow.style.backgroundColor = "#ffffff"; // встановлення білого фону
+    totalRow.innerHTML =
+        "<td colspan='3'><strong>Загалом</strong></td>" +
+        "<td><strong>" + totalSumOrder.toFixed(2) + "</strong></td>" +
+        "<td><strong>" + totalSumInvoice.toFixed(2) + "</strong></td>" +
+        "<td></td>" +
+        "<td></td>";
+    ordersTableBody.appendChild(totalRow);
+
+    searchOrders();
 }
+
 
 // Функція для пошуку замовлень
 function searchOrders() {
