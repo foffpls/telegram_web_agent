@@ -94,9 +94,27 @@
 			closeModal(); 
 		}
 		
-		function send102Price() {
-			Telegram.WebApp.sendData("ВАГОВКА PDF");
-		}
+		        // Ініціалізація WebApp
+        Telegram.WebApp.ready();
+
+        // Приклад даних
+        let items = ["item1", "item2", "item3"];
+        let totalPrice = 100;
+
+        function calculateTotalPrice() {
+            // Приклад розрахунку загальної ціни
+            return totalPrice;
+        }
+
+        // Обробник події натискання головної кнопки
+        Telegram.WebApp.onEvent("mainButtonClicked", function {
+            let data = {
+                items: items,
+                totalPrice: calculateTotalPrice()
+            };
+            Telegram.WebApp.sendData(JSON.stringify(data)); // Надсилаємо дані у форматі JSON
+        });
+		
 		
 				
 		function send103Price() {
