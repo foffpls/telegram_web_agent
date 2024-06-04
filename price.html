@@ -6,19 +6,44 @@
     <title>РОШЕН-КОНДИТЕР</title>
     <link rel="stylesheet" href="main.css">
 	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script>
+        window.Telegram.WebApp.ready();
+        window.Telegram.WebApp.expand();
+
+        // Ініціалізація WebApp
+        let initData = window.Telegram.WebApp.initData;
+        let initDataUnsafe = window.Telegram.WebApp.initDataUnsafe;
+
+        // Налаштування головної кнопки
+        window.Telegram.WebApp.MainButton.showProgress();
+        window.Telegram.WebApp.MainButton.setText('Submit').show().enable();
+        window.Telegram.WebApp.MainButton.isProgressVisible = "true";
+
+        // Додайте обробник події для натискання кнопки
+        window.Telegram.WebApp.MainButton.onClick(() => {
+            // Дані для відправки
+            let data = {
+                items: ["item1", "item2", "item3"],
+                totalPrice: 100
+            };
+
+            // Відправка даних у форматі JSON
+            window.Telegram.WebApp.sendData(JSON.stringify(data));
+
+            // Закриття WebApp
+            window.Telegram.WebApp.close();
+        });
+
+        // Виведення даних для перевірки
+        window.document.getElementById('tg').innerHTML = JSON.stringify(initDataUnsafe);
+    </script>
 </head>
 <body>
     <div id="content">		
         <div class="menu-buttons">
             <button onclick="openIndexPage()">ЗАМОВЛЕННЯ</button>
 			<button onclick="clearLocalStorage()">ВИХІД</button>
-        </div>
-		
-		<div class="price-buttons">
-			<button onclick="send102Price()"><img src="download.png" alt="icon" style="width:32px; height:32px; vertical-align:middle; padding-right:10px;">ВАГОВКА</button>
-            <button onclick="send103Price()"><img src="download.png" alt="icon" style="width:32px; height:32px; vertical-align:middle; padding-right:10px;">ФАСОВКА</button>
-        </div>
-		
+        </div>		
         <div class="container">
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Пошук за назвою...">
@@ -89,10 +114,6 @@
 			document.getElementById('container').style.display = 'none';
             document.getElementById('password-container').style.display = 'block';
 			closeModal(); 
-		}
-	
-		function send103Price() {
-			Telegram.WebApp.sendData("ФАСОВКА PDF");
 		}
 	</script>
 </body>
