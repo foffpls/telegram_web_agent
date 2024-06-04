@@ -6,7 +6,7 @@
     <title>РОШЕН-КОНДИТЕР</title>
     <link rel="stylesheet" href="main.css">
 	<script src="https://telegram.org/js/telegram-web-app.js"></script>
-	<script>
+    <script>
         window.Telegram.WebApp.ready();
         window.Telegram.WebApp.expand();
 
@@ -16,19 +16,16 @@
 
         // Налаштування головної кнопки
         window.Telegram.WebApp.MainButton.showProgress();
-        window.Telegram.WebApp.MainButton.setText('Submit').show().enable();
+        window.Telegram.WebApp.MainButton.setText('НАДІСЛАТИ').show().enable();
         window.Telegram.WebApp.MainButton.isProgressVisible = "true";
 
         // Додайте обробник події для натискання кнопки
         window.Telegram.WebApp.MainButton.onClick(() => {
             // Дані для відправки
-            let data = {
-                items: ["item1", "item2", "item3"],
-                totalPrice: 100
-            };
+            let data = "ВАГОВКА";
 
             // Відправка даних у форматі JSON
-            window.Telegram.WebApp.sendData(JSON.stringify(data));
+            window.Telegram.WebApp.sendData(data);
 
             // Закриття WebApp
             window.Telegram.WebApp.close();
@@ -36,6 +33,7 @@
 
         // Виведення даних для перевірки
         window.document.getElementById('tg').innerHTML = JSON.stringify(initDataUnsafe);
+		console.log(JSON.stringify(initDataUnsafe));
     </script>
 </head>
 <body>
