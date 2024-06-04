@@ -13,6 +13,11 @@
             <button onclick="openIndexPage()">ЗАМОВЛЕННЯ</button>
 			<button onclick="clearLocalStorage()">ВИХІД</button>
         </div>		
+		
+		<div class="test-buttons">
+            <button onclick="sendInfoTelegram()">SEND TEXT</button>
+        </div>
+		
         <div class="container">
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Пошук за назвою...">
@@ -83,6 +88,18 @@
 			document.getElementById('container').style.display = 'none';
             document.getElementById('password-container').style.display = 'block';
 			closeModal(); 
+		}
+		
+		function sendInfoTelegram() {
+		// Отримання об'єкта користувача з Telegram WebApp
+		var userDataString = localStorage.getItem("telegramUser");
+		var userData = JSON.parse(userDataString);
+
+		// Отримання ID користувача
+		var userId = userData.id;
+
+		// Відправлення ID користувача на сервер або використання для інших дій
+		alert("ID користувача: " + userId);
 		}
 	</script>
 </body>
