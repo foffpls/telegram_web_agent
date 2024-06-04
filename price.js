@@ -2,6 +2,7 @@ var groupStates = {};
 var searchFilterActive = false;
 
 document.addEventListener("DOMContentLoaded", function () {
+	Telegram.WebApp.ready();
     var tableBody = document.getElementById("priceList").getElementsByTagName("tbody")[0];
 
 	async function checkPassword() {
