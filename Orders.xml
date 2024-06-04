@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="04.06.2024">
+	<Agent Login="UA002-0017" AgentName="Дишленко Владислав! (ваг)2">
+		<Order OrderNumber="РК000000082940" Stage="Новый" TT="ЖЕРЕБНЮК МИКОЛА ВАСИЛЬОВИЧ( &quot;СВІТ ЛАСОЩІВ&quot;)" Adress="Могилів-Подільський, Ринкова, 41" SumOrder="3 839,3" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000082937" Stage="НеОбработан" TT="ЖЕРЕБНЮК МИКОЛА ВАСИЛЬОВИЧ ОПТ-РОЗДРІБ" Adress="Могилів-Подільський, Ринкова, 21" SumOrder="1 025,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000082938" Stage="НеОбработан" TT="ЖЕРЕБНЮК МИКОЛА ВАСИЛЬОВИЧ СКЛАД 2 СВІТ СОЛОДОЩІВ" Adress="Могилів-Подільський, Ринкова, 21" SumOrder="3 822,19" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000082922" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000575532" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000082923" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000575533" SumInvoice="162" F2="FALSE" XPEditor=""/>
@@ -18,8 +23,8 @@
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
 		<Order OrderNumber="РК000000082936" Stage="НеОбработан" TT="СОЛОВЕЙ ОЛЕКСАНДР ВОЛОДИМИРОВИЧ ПРОДУКТИ" Adress="Шевченкове, Жовтнева, 44" SumOrder="840,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
-	<Agent Login="UA002-0017" AgentName="Дишленко Владислав! (ваг)2">
-		<Order OrderNumber="РК000000082937" Stage="НеОбработан" TT="ЖЕРЕБНЮК МИКОЛА ВАСИЛЬОВИЧ ОПТ-РОЗДРІБ" Adress="Могилів-Подільський, Ринкова, 21" SumOrder="1 025,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
+		<Order OrderNumber="РК000000082939" Stage="НеОбработан" TT="БАРАНОВСЬКА СВІТЛАНА ГРИГОРІВНАМАГАЗИН&quot;З ПЕРШИХ РУК&quot; " Adress="Могилів-Подільський, Стависька, 46а" SumOrder="10 694,78" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0038" AgentName="Коробчинський Дмитро (ваг)">
 		<Order OrderNumber="РК000000082935" Stage="НеОбработан" TT="СІДЛАК ЛІЛІЯ ОЛЕКСАНДРІВНА М-Н&quot;ТОБІ МАРКЕТ&quot;" Adress="Жмеринка, Київська, 288" SumOrder="10 482,72" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
