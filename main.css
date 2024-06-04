@@ -41,6 +41,12 @@ body {
     gap: 10px; /* Відстань між кнопками */
 }
 
+.price-buttons {
+    display: flex; /* Використовуємо Flexbox для розміщення елементів в один рядок */
+    gap: 10px; /* Відстань між кнопками */
+	
+}
+
 button {
     padding: 10px 5px; 
     font-size: 14px; 
