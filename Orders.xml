@@ -16,6 +16,7 @@
 		<Order OrderNumber="ÐÊ000000091356" Stage="ÍåÎáðàáîòàí" TT="ÊÐÀÂ×ÓÊ ÎËÅÊÑ²É ËÅÎÍ²ÄÎÂÈ× Á²Ëß ÒÀÊÑÎÏÀÐÊÓ" Adress="Â³ííèöÿ, ².ÁÎÃÓÍÀ, 25 À" SumOrder="1 801,63" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="ÐÊ000000091293" Stage="ÍåÎáðàáîòàí" TT="ÄÀÍÈËÈ× ÎËÅÍÀ ÎËÅÊÑÀÍÄÐ²ÂÍÀ ËÎÒÎÊ ÑÎËÎÄÎÙ²" Adress="Â³ííèöÿ, Ïèðîãîâà, 49" SumOrder="2 496,3" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="ÐÊ000000091413" Stage="ÍåÎáðàáîòàí" TT="ÁªËÀß ÎÊÑÀÍÀ ÂÎËÎÄÈÌÈÐ²ÂÍÀ ÌÀÃÀÇÈÍ &quot;Ä²ÁÐÎÂÀ&quot;" Adress="Â³ííèöÿ, ÑÀËÒÈÊÎÂÀ-ÙÅÄÐ²ÍÀ, 110" SumOrder="7 431,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091437" Stage="ÍåÎáðàáîòàí" TT="ÏÎÁËÎÖÜÊÀ Ë²Ë²ß ÎËÅÊÑ²¯ÂÍÀ ÏÐÎÄÓÊÒÈ" Adress="Â³ííèöÿ, Ëèòâèíåíêà, 44À" SumOrder="1 965,1" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0078" AgentName="Ðóðàê Iðèíà">
 		<Order OrderNumber="ÐÊ000000091433" Stage="Íîâûé" TT="ØÀÕÍ²ßÐÎÂÀ ÆÀÍÍÅÒÀ ÐÀÌÈÇ²ÂÍÀ(êàôå Îðõ³äåÿ)" Adress="Ðàõíè Ë³ñîâ³, Öåíòðàëüíà, 118" SumOrder="2 186,11" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -30,6 +31,21 @@
 		<Order OrderNumber="ÐÊ000000090752" Stage="ÍåÎáðàáîòàí" TT="ÌÅËÜÍÈÊ ÎËÅÍÀ ÌÈÊÎËÀ¯ÂÍÀ miks market" Adress="Â³ííèöÿ, Äìèòðà Ìàéáîðîäè, 42 à" SumOrder="2 047,36" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="ÐÊ000000091377" Stage="ÍåÎáðàáîòàí" TT="ÃÓÌÅÍÞÊ Ë²Ë²ß ÀÍÀÒÎË²¯ÂÍÀ ( Ì-Í &quot;ÏÐÎÄÓÊÒÈ&quot;)" Adress="Òîðê³â, ËÅÍ²ÍÀ, 29" SumOrder="2 462,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="ÐÊ000000091403" Stage="ÍåÎáðàáîòàí" TT="ÒÎÂÀÐÈÑÒÂÎ Ç ÎÁÌÅÆÅÍÎÞ Â²ÄÏÎÂ²ÄÀËÜÍ²ÑÒÞ &quot;ÀÁÏ  - Î²Ë&quot; Ìàãàçèí íà ÀÇÑ" Adress="Ãðóøê³âö³, à/ä Ëüâ³â-Ê³ðîâîãðàä-Çíàì'ÿíêà,298 êì+545êì, " SumOrder="1 385,75" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0029" AgentName="Êðàñ³ëîâ-Ïàñ³÷íèê Ðîìàí (âàã)">
+		<Order OrderNumber="ÐÊ000000091439" Stage="Íîâûé" TT="ÏÅÐÅÂÅÐÒÀÊ ÍÅËß ÃÐÈÃÎÐ²ÂÍÀ(ÏÐÎÄÓÊÒÈ)" Adress="Çâåäåí³âêà, Ñóâîðîâà, 8" SumOrder="2 528,11" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091440" Stage="Íîâûé" TT="ÏÅÐÅÂÅÐÒÀÊ ÍÅËß ÃÐÈÃÎÐ²ÂÍÀ(ÏÐÎÄÓÊÒÈ)" Adress="Çâåäåí³âêà, Ñóâîðîâà, 8" SumOrder="3 005,06" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091245" Stage="Îòãðóæåí" TT="ÔÅÒ²ÑÎÂÀ ²ÐÈÍÀ ÎËÅÊÑ²¯ÂÍÀ Ì-Í &quot;ÏÐÎÄÓÊÒÈ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ãàãàð³íà, 64" SumOrder="1 862,83" InvoiceNumber="ÐÊ000000583759" SumInvoice="1 862,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091184" Stage="ÍåÎáðàáîòàí" TT="ÊÈÁÀ ²ÍÍÀ ÎËÅÊÑÀÍÄÐ²ÂÍÀ ÌÀÃÀÇÈÍ-ÁÀÐ" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 96" SumOrder="1 770,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091157" Stage="ÍåÎáðàáîòàí" TT="×ÀÉÊÀ ÞÐ²É ÌÈÕÀÉËÎÂÈ× ÌÀÃ-Í &quot;×ÀÉÊÀ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 55" SumOrder="3 005,06" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091158" Stage="ÍåÎáðàáîòàí" TT="×ÀÉÊÀ ÞÐ²É ÌÈÕÀÉËÎÂÈ× ÌÀÃ-Í &quot;×ÀÉÊÀ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 55" SumOrder="2 584,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091275" Stage="ÍåÎáðàáîòàí" TT="ÊÎÑÒÞÊ ÎËÅÊÑÀÍÄÐ ÏÅÒÐÎÂÈ× ÌÀÃÀÇÈÍ &quot;ÐÈÒÓÀËÜÍ² ÏÎÑËÓÃÈ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 100" SumOrder="2 363,53" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091220" Stage="ÍåÎáðàáîòàí" TT="ÊÐÀÂ×ÓÊ ÂÀËÅÍÒÈÍÀ ÌÈÕÀÉË²ÂÍÀ ÌÀÃÀÇÈÍ-ÁÀÐ" Adress="Ðàõíè Ë³ñîâ³, Ãàãàð³íà, 9" SumOrder="3 005,06" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091221" Stage="ÍåÎáðàáîòàí" TT="ÊÐÀÂ×ÓÊ ÂÀËÅÍÒÈÍÀ ÌÈÕÀÉË²ÂÍÀ ÌÀÃÀÇÈÍ-ÁÀÐ" Adress="Ðàõíè Ë³ñîâ³, Ãàãàð³íà, 9" SumOrder="2 584" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091208" Stage="ÍåÎáðàáîòàí" TT="Ì²ÍÀªÂÀ ÑÂ²ÒËÀÍÀ ÏÅÒÐ²ÂÍÀ(ÌÀÃÀÇÈÍ ÏÐÎÄÓÊÒÈ)" Adress="Ðàõíè Ë³ñîâ³, ÊÎÌÑÎÌÎËÜÑÜÊÀ, 2" SumOrder="1 345,92" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091366" Stage="ÍåÎáðàáîòàí" TT="ÂÅÍÖÊÎÂÑÜÊÀ ÒÅÒßÍÀ ÎËÅÊÑÀÍÄÐ²ÂÍÀ(ÇÅËÅÍÀ ÕÀÒÀ)" Adress="Ñòð³ëüíèêè, Ëåí³íà, 6" SumOrder="1 252,34" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091438" Stage="ÍåÎáðàáîòàí" TT="ÊÎÑÒÞÊ ÎËÅÊÑÀÍÄÐ ÏÅÒÐÎÂÈ× ÌÀÃÀÇÈÍ &quot;ÐÈÒÓÀËÜÍ² ÏÎÑËÓÃÈ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 100" SumOrder="2 528,11" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000091441" Stage="ÍåÎáðàáîòàí" TT="ÊÎÑÒÞÊ ÎËÅÊÑÀÍÄÐ ÏÅÒÐÎÂÈ× ÌÀÃÀÇÈÍ &quot;ÐÈÒÓÀËÜÍ² ÏÎÑËÓÃÈ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 100" SumOrder="3 005,06" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0026" AgentName="Âåðãåëåñ Àíäð³é (âàã)">
 		<Order OrderNumber="ÐÊ000000091233" Stage="Îòãðóæåí" TT="ÀÊÑÀÍÞÊ ÌÈÊÎËÀ ÂÀÑÈËÜÎÂÈ× (ÌÀÃÀÇÈÍ&quot;ÏÐÎÂ²ÀÍÒ-ËÞÊÑ&quot;)" Adress="Â³ííèöÿ, ÀÊÀÄÅÌ²×ÍÀ , 60" SumOrder="3 005,06" InvoiceNumber="ÐÊ000000583831" SumInvoice="3 005,1" F2="FALSE" XPEditor=""/>
@@ -79,17 +95,6 @@
 	</Agent>
 	<Agent Login="UA002-0032" AgentName="Ëàâðåíþê Â³òàë³é!!! (ôàñ)">
 		<Order OrderNumber="ÐÊ000000091213" Stage="Îòãðóæåí" TT="ÌÀØÅÊ ÎËÜÃÀ ÎËÅÃ²ÂÍÀ &quot;mash market&quot;" Adress="Â³ííèöÿ, Îëåêñàíäð³âñüêà, 1" SumOrder="677,95" InvoiceNumber="ÐÊ000000583773" SumInvoice="678" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0029" AgentName="Êðàñ³ëîâ-Ïàñ³÷íèê Ðîìàí (âàã)">
-		<Order OrderNumber="ÐÊ000000091245" Stage="Îòãðóæåí" TT="ÔÅÒ²ÑÎÂÀ ²ÐÈÍÀ ÎËÅÊÑ²¯ÂÍÀ Ì-Í &quot;ÏÐÎÄÓÊÒÈ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ãàãàð³íà, 64" SumOrder="1 862,83" InvoiceNumber="ÐÊ000000583759" SumInvoice="1 862,9" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091184" Stage="ÍåÎáðàáîòàí" TT="ÊÈÁÀ ²ÍÍÀ ÎËÅÊÑÀÍÄÐ²ÂÍÀ ÌÀÃÀÇÈÍ-ÁÀÐ" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 96" SumOrder="1 770,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091157" Stage="ÍåÎáðàáîòàí" TT="×ÀÉÊÀ ÞÐ²É ÌÈÕÀÉËÎÂÈ× ÌÀÃ-Í &quot;×ÀÉÊÀ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 55" SumOrder="3 005,06" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091158" Stage="ÍåÎáðàáîòàí" TT="×ÀÉÊÀ ÞÐ²É ÌÈÕÀÉËÎÂÈ× ÌÀÃ-Í &quot;×ÀÉÊÀ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 55" SumOrder="2 584,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091275" Stage="ÍåÎáðàáîòàí" TT="ÊÎÑÒÞÊ ÎËÅÊÑÀÍÄÐ ÏÅÒÐÎÂÈ× ÌÀÃÀÇÈÍ &quot;ÐÈÒÓÀËÜÍ² ÏÎÑËÓÃÈ&quot;" Adress="Ðàõíè Ë³ñîâ³, Ëåí³íà, 100" SumOrder="2 363,53" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091220" Stage="ÍåÎáðàáîòàí" TT="ÊÐÀÂ×ÓÊ ÂÀËÅÍÒÈÍÀ ÌÈÕÀÉË²ÂÍÀ ÌÀÃÀÇÈÍ-ÁÀÐ" Adress="Ðàõíè Ë³ñîâ³, Ãàãàð³íà, 9" SumOrder="3 005,06" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091221" Stage="ÍåÎáðàáîòàí" TT="ÊÐÀÂ×ÓÊ ÂÀËÅÍÒÈÍÀ ÌÈÕÀÉË²ÂÍÀ ÌÀÃÀÇÈÍ-ÁÀÐ" Adress="Ðàõíè Ë³ñîâ³, Ãàãàð³íà, 9" SumOrder="2 584" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091208" Stage="ÍåÎáðàáîòàí" TT="Ì²ÍÀªÂÀ ÑÂ²ÒËÀÍÀ ÏÅÒÐ²ÂÍÀ(ÌÀÃÀÇÈÍ ÏÐÎÄÓÊÒÈ)" Adress="Ðàõíè Ë³ñîâ³, ÊÎÌÑÎÌÎËÜÑÜÊÀ, 2" SumOrder="1 345,92" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000091366" Stage="ÍåÎáðàáîòàí" TT="ÂÅÍÖÊÎÂÑÜÊÀ ÒÅÒßÍÀ ÎËÅÊÑÀÍÄÐ²ÂÍÀ(ÇÅËÅÍÀ ÕÀÒÀ)" Adress="Ñòð³ëüíèêè, Ëåí³íà, 6" SumOrder="1 252,34" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0010" AgentName="Ìàö³ºâñüêèé Àðòåì (âàã)">
 		<Order OrderNumber="ÐÊ000000091246" Stage="Îòãðóæåí" TT="ÃÐÎÑÜ Ç²ÍÀ¯ÄÀ ÑÒÅÏÀÍ²ÂÍÀ &quot;ÓÍ²ÂÅÐÌÀÃ ÊÎÎÏÅÐÀÒÎÐ ÑÒ&quot;" Adress="Äàø³â, 40Ð ÏÅÐÅÌÎÃÈ, 7" SumOrder="3 612,06" InvoiceNumber="ÐÊ000000583760" SumInvoice="3 612,1" F2="FALSE" XPEditor=""/>
