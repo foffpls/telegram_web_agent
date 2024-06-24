@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="24.06.2024">
+	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000093132" Stage="НеОбработан" TT="ЛЯШЕНКО ВІТАЛІЙ ВОЛОДИМИРОВИЧ(ПРОДУКТИ)" Adress="Новоживотів, САДОВА, 47" SumOrder="4 387,13" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093123" Stage="Отгружен" TT="ЛІЩИНСЬКИЙ АНАТОЛІЙ МИКОЛАЙОВИЧМАГАЗИН" Adress="Новоживотів, НАБЕРЕЖНА, 1" SumOrder="1 957,16" InvoiceNumber="РК000000585671" SumInvoice="1 815" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000093072" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000585643" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093073" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000585644" SumInvoice="162" F2="FALSE" XPEditor=""/>
@@ -14,6 +18,7 @@
 		<Order OrderNumber="РК000000093082" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000585653" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093083" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000585642" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093084" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000585654" SumInvoice="162" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093134" Stage="Отгружен" TT="БОЖОК ІГОР ІГОРОВИЧ  РОМАШКА" Adress="Вінниця, Дубовецька, 37 а" SumOrder="108,48" InvoiceNumber="РК000000585687" SumInvoice="108,5" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0019" AgentName="Сахненко Віктор! (фас)">
 		<Order OrderNumber="РК000000093117" Stage="Отгружен" TT="СИРОВАТКО ОЛЬГА ІГОРІВНА МАГАЗИН &quot;ГЕРМЕС&quot;" Adress="Іллінці, К.МАРКСА , 72" SumOrder="4 870,37" InvoiceNumber="РК000000585667" SumInvoice="4 870,4" F2="FALSE" XPEditor=""/>
@@ -29,31 +34,37 @@
 	</Agent>
 	<Agent Login="UA002-0078" AgentName="Рурак Iрина">
 		<Order OrderNumber="РК000000092895" Stage="Отгружен" TT="БРОШУК ПОЛІНА ЛЮДВІГІВНА М-Н КАВЯРНЯ" Adress="Вінниця, Стахурського, 4А" SumOrder="1 388,62" InvoiceNumber="РК000000585657" SumInvoice="1 388,7" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000093089" Stage="Отгружен" TT="СИМЧУК ТЕТЯНА МИКОЛАЇВНА МАГ-Н ПРОДУКТИ" Adress="Вінниця, КОМАРОВА, 90В" SumOrder="1 919,78" InvoiceNumber="РК000000585665" SumInvoice="1 919,8" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093093" Stage="Новый" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС  БРСМ" Adress="Вінниця, Хмельницьке шосе, 114/1" SumOrder="1 021,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093089" Stage="Отгружен" TT="СИМЧУК ТЕТЯНА МИКОЛАЇВНА МАГ-Н ПРОДУКТИ" Adress="Вінниця, КОМАРОВА, 90В" SumOrder="1 919,78" InvoiceNumber="РК000000585665" SumInvoice="1 919,8" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000092501" Stage="Обработан" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС &quot;БРСМ&quot;" Adress="Немирів, Гайсинське шосе, 1" SumOrder="373,76" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000090752" Stage="НеОбработан" TT="МЕЛЬНИК ОЛЕНА МИКОЛАЇВНА miks market" Adress="Вінниця, Дмитра Майбороди, 42 а" SumOrder="2 047,36" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
-	<Agent Login="UA002-0007" AgentName="Єременко Дмитро!!! (фас)">
-		<Order OrderNumber="РК000000093112" Stage="НеОбработан" TT="ДІДУСЕНКО ОЛЕСЯ ВОЛОДИМИРІВНА МАГАЗИН ПРОДУКТИ" Adress="Десна, ГАГАРІНА, 2А" SumOrder="2 393,75" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000093125" Stage="НеОбработан" TT="СТУДЕНТ ЮРІЙ ІВАНОВИЧ (МАГ.МАГАЗИНЧИК)" Adress="Десна, ГАГАРІНА, 13" SumOrder="3 811,31" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0060" AgentName="Валько Василь (фас)">
+		<Order OrderNumber="РК000000093091" Stage="Отгружен" TT="РИБАЛКО СВІТЛАНА ЛЕОНІДІВНА (МАГ-Н &quot;ТРОЯ&quot;)" Adress="Немирів, Горького, 1-А" SumOrder="2 366,29" InvoiceNumber="РК000000585662" SumInvoice="2 087" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093108" Stage="Отгружен" TT="КОПТЮХ ВАЛЕНТИНА ВОЛОДИМИРІВНА МАГАЗИ ПРОДУКТИ" Adress="Червоне, ЛЕНІНА, 2" SumOrder="760,2" InvoiceNumber="РК000000585664" SumInvoice="680,8" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0017" AgentName="Дишленко Владислав! (ваг)2">
+		<Order OrderNumber="РК000000093130" Stage="НеОбработан" TT="ШУМІЛІНА ОЛЬГА СЕРГІЇВНА ПРОДУКТИ" Adress="Вінниця, Київська, 8" SumOrder="1 951,43" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093131" Stage="Новый" TT="ШУМІЛІНА ОЛЬГА СЕРГІЇВНА ПРОДУКТИ" Adress="Вінниця, Київська, 8" SumOrder="1 101,07" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093085" Stage="Отгружен" TT="ШЕВЧЕНКО ПАВЛО ВОЛОДИМИРОВИЧ(МАГАЗИН ПРОДУКТИ)" Adress="Вінниця, ПЕРШОТРАВНЕВА, 92" SumOrder="2 489,14" InvoiceNumber="РК000000585659" SumInvoice="2 489,2" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093100" Stage="НеОбработан" TT="ПРОКОФ'ЄВ ВОЛОДИМИР ІВАНОВИЧ" Adress="Вінниця, Кірпічна, 12" SumOrder="1 049,7" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
+	<Agent Login="UA002-0007" AgentName="Єременко Дмитро!!! (фас)">
+		<Order OrderNumber="РК000000093125" Stage="НеОбработан" TT="СТУДЕНТ ЮРІЙ ІВАНОВИЧ (МАГ.МАГАЗИНЧИК)" Adress="Десна, ГАГАРІНА, 13" SumOrder="3 811,31" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093112" Stage="НеОбработан" TT="ДІДУСЕНКО ОЛЕСЯ ВОЛОДИМИРІВНА МАГАЗИН ПРОДУКТИ" Adress="Десна, ГАГАРІНА, 2А" SumOrder="2 393,75" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
-		<Order OrderNumber="РК000000093110" Stage="Новый" TT="СЛОБОДЯНЮК ВОЛОДИМИР АНАТОЛІЙОВИЧ МАГАЗИН ПРОЛІСОК" Adress="Вінницькі Хутори, Шевченка, 93" SumOrder="5 513,36" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093110" Stage="Отгружен" TT="СЛОБОДЯНЮК ВОЛОДИМИР АНАТОЛІЙОВИЧ МАГАЗИН ПРОЛІСОК" Adress="Вінницькі Хутори, Шевченка, 93" SumOrder="5 513,36" InvoiceNumber="РК000000585683" SumInvoice="5 401,7" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093096" Stage="НеОбработан" TT="ДАРАГАН ОЛЕСЯ ВАЛЕНТИНІВНА маг-н KIVIS" Adress="Вінницькі Хутори, Ватутіна, 100 а" SumOrder="2 749,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093121" Stage="НеОбработан" TT="ОСТАПЧУК ОЛЕНА ЮРІЇВНА МАГАЗИН-БАР &quot;ПОЛЯНА&quot;" Adress="Вінницькі Хутори, ЗЕЛЕНА, 48 Б" SumOrder="1 184,76" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093092" Stage="Отгружен" TT="МАРЧУК ЛАРИСА ПИЛИПІВНА М-Н ПРОДУКТИ" Adress="Вінницькі Хутори, КОТЛЯРЕВСЬКОГО, 61" SumOrder="1 124,81" InvoiceNumber="РК000000585661" SumInvoice="981,68" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
-		<Order OrderNumber="РК000000093098" Stage="Отгружен" TT="ДОЛГОПОЛОВА НАТАЛІЯ АДОЛЬФІВНА  маг-н Комора" Adress="Вінниця, Бучми, 139" SumOrder="879,58" InvoiceNumber="РК000000585673" SumInvoice="879,6" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093107" Stage="Отгружен" TT="СТЕПАНЮК ТЕТЯНА ВАСИЛІВНА ХУТОРЯНКА" Adress="Вінниця, Бучми, 143" SumOrder="5 196,07" InvoiceNumber="РК000000585676" SumInvoice="5 196,1" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000093119" Stage="НеОбработан" TT="КІЗЛЕВИЧ ЮЛІЯ ПЕТРІВНА М-Н &quot;РОДИНИЙ&quot;" Adress="Вінниця, Бучми, 223" SumOrder="245,28" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000093118" Stage="НеОбработан" TT="КІЗЛЕВИЧ ЮЛІЯ ПЕТРІВНА М-Н &quot;РОДИНИЙ&quot;" Adress="Вінниця, Бучми, 223" SumOrder="1 554,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093106" Stage="Отгружен" TT="СТЕПАНЮК ТЕТЯНА ВАСИЛІВНА ХУТОРЯНКА" Adress="Вінниця, Бучми, 143" SumOrder="474,7" InvoiceNumber="РК000000585681" SumInvoice="474,7" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093118" Stage="Отгружен" TT="КІЗЛЕВИЧ ЮЛІЯ ПЕТРІВНА М-Н &quot;РОДИНИЙ&quot;" Adress="Вінниця, Бучми, 223" SumOrder="1 554,8" InvoiceNumber="РК000000585685" SumInvoice="1 554,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093119" Stage="Отгружен" TT="КІЗЛЕВИЧ ЮЛІЯ ПЕТРІВНА М-Н &quot;РОДИНИЙ&quot;" Adress="Вінниця, Бучми, 223" SumOrder="245,28" InvoiceNumber="РК000000585686" SumInvoice="126" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093098" Stage="Отгружен" TT="ДОЛГОПОЛОВА НАТАЛІЯ АДОЛЬФІВНА  маг-н Комора" Adress="Вінниця, Бучми, 139" SumOrder="879,58" InvoiceNumber="РК000000585673" SumInvoice="879,6" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093088" Stage="НеОбработан" TT="ВАЛЬОВСЬКА ВІРА ВАСИЛІВНА МАГ-Н ПРОДУКТИ" Adress="Вінниця, ЕНГЕЛЬСА, 35" SumOrder="2 258,36" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093071" Stage="НеОбработан" TT="АНТОНЮК ТЕТЯНА ОЛЕКСАНДРІВНА  маркет плюс" Adress="Вінниця, Д.Нечая, 7" SumOrder="1 554,95" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093070" Stage="НеОбработан" TT="АНТОНЮК ТЕТЯНА ОЛЕКСАНДРІВНА маркет плюс" Adress="Вінниця, Г.Успенського, 81" SumOrder="918,35" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -63,30 +74,28 @@
 	</Agent>
 	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
 		<Order OrderNumber="РК000000093090" Stage="НеОбработан" TT="АНТОНЮК ТЕТЯНА ОЛЕКСАНДРІВНА маркет плюс" Adress="Вінниця, ПОЛЬОВА, 8" SumOrder="2 940,62" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000093109" Stage="Новый" TT="ЗАПОРОЖЧУК МАРІЯ РОМАНІВНА(&quot;АКАДЕМІЧНИЙ&quot;мікс маркет)" Adress="Бохоники, Миколаївська, 4-А" SumOrder="724,67" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093109" Stage="Отгружен" TT="ЗАПОРОЖЧУК МАРІЯ РОМАНІВНА(&quot;АКАДЕМІЧНИЙ&quot;мікс маркет)" Adress="Бохоники, Миколаївська, 4-А" SumOrder="724,67" InvoiceNumber="РК000000585682" SumInvoice="650" F2="FALSE" XPEditor=""/>
 	</Agent>
-	<Agent Login="UA002-0060" AgentName="Валько Василь (фас)">
-		<Order OrderNumber="РК000000093091" Stage="Отгружен" TT="РИБАЛКО СВІТЛАНА ЛЕОНІДІВНА (МАГ-Н &quot;ТРОЯ&quot;)" Adress="Немирів, Горького, 1-А" SumOrder="2 366,29" InvoiceNumber="РК000000585662" SumInvoice="2 087" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000093108" Stage="Отгружен" TT="КОПТЮХ ВАЛЕНТИНА ВОЛОДИМИРІВНА МАГАЗИ ПРОДУКТИ" Adress="Червоне, ЛЕНІНА, 2" SumOrder="760,2" InvoiceNumber="РК000000585664" SumInvoice="680,8" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0029" AgentName="Красілов-Пасічник Роман (ваг)">
+		<Order OrderNumber="РК000000093127" Stage="НеОбработан" TT="АНТОНЮК ОЛЕГ ВІТАЛІЙОВИЧ МАГАЗИН ПРОДУКТИ" Adress="Кинашів, Першотравнева, 16" SumOrder="3 656,58" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093111" Stage="Отгружен" TT="БУЖЕНКО ОЛЕНА ВІТАУТО М-Н &quot;НЕСТЕРВАРКА&quot;" Adress="Нестерварка, ЛЕОНТОВИЧА, 57-А" SumOrder="1 147,15" InvoiceNumber="РК000000585684" SumInvoice="1 147,15" F2="FALSE" XPEditor=""/>
 	</Agent>
-	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
-		<Order OrderNumber="РК000000093123" Stage="Отгружен" TT="ЛІЩИНСЬКИЙ АНАТОЛІЙ МИКОЛАЙОВИЧМАГАЗИН" Adress="Новоживотів, НАБЕРЕЖНА, 1" SumOrder="1 957,16" InvoiceNumber="РК000000585671" SumInvoice="1 815" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0059" AgentName="Костишин Роман (ваг)">
+		<Order OrderNumber="РК000000093126" Stage="Отгружен" TT="КРИВИЙ АНАТОЛІЙ ВОЛОДИМИРОВИЧ МАГ.&quot;ПРОДУКТИ&quot;" Adress="Дяківці, ЛЕНІНА, 14" SumOrder="1 917,12" InvoiceNumber="РК000000585680" SumInvoice="1 857,5" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0021" AgentName="Січкар Володимир! (фас)">
+		<Order OrderNumber="РК000000093104" Stage="Отгружен" TT="СЕМЕНЮТІНА ГАЛИНА ПИЛИПІВНА(МАГАЗИН)" Adress="Сорока, Гагаріна, 4" SumOrder="2 388,89" InvoiceNumber="РК000000585679" SumInvoice="2 274,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093113" Stage="НеОбработан" TT="ФЛЬОРКО СВІТЛАНА ВОЛОДИМИРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Сорока, Гагаріна, 7" SumOrder="3 648,89" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000093129" Stage="НеОбработан" TT="БЕВЗЮК ОКСАНА ФЕДОРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Жадани, ШЕВЧЕНКА, 51 А" SumOrder="934,03" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Антохова Катерина (ваг)">
+		<Order OrderNumber="РК000000093128" Stage="НеОбработан" TT="РЕВНЮК ВАЛЕРІЙ АНДРІЙОВИЧ (М-Н ПРОДУКТИ)" Adress="Вапнярка, ГАГАРІНА, 6" SumOrder="2 025,97" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0031" AgentName="Зелінський Владислав (фас)">
 		<Order OrderNumber="РК000000093124" Stage="НеОбработан" TT="ЧАЙКА ЮРІЙ МИХАЙЛОВИЧ МАГ-Н &quot;ЧАЙКА&quot;" Adress="Рахни Лісові, Леніна, 55" SumOrder="1 044,18" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0035" AgentName="Мартиневич Артем (ваг)">
 		<Order OrderNumber="РК000000093099" Stage="Отгружен" TT="РЕПЛЯНЧУК ЄВДОКІЯ ЛЕОНТІЇВНА МАГ.&quot;НОРД&quot;" Adress="Крикливець, КІРОВА, 57" SumOrder="1 242,88" InvoiceNumber="РК000000585656" SumInvoice="1 242,9" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0029" AgentName="Красілов-Пасічник Роман (ваг)">
-		<Order OrderNumber="РК000000093111" Stage="НеОбработан" TT="БУЖЕНКО ОЛЕНА ВІТАУТО М-Н &quot;НЕСТЕРВАРКА&quot;" Adress="Нестерварка, ЛЕОНТОВИЧА, 57-А" SumOrder="1 147,15" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0059" AgentName="Костишин Роман (ваг)">
-		<Order OrderNumber="РК000000093126" Stage="Отгружен" TT="КРИВИЙ АНАТОЛІЙ ВОЛОДИМИРОВИЧ МАГ.&quot;ПРОДУКТИ&quot;" Adress="Дяківці, ЛЕНІНА, 14" SumOrder="1 917,12" InvoiceNumber="РК000000585680" SumInvoice="1 857,5" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0021" AgentName="Січкар Володимир! (фас)">
-		<Order OrderNumber="РК000000093113" Stage="НеОбработан" TT="ФЛЬОРКО СВІТЛАНА ВОЛОДИМИРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Сорока, Гагаріна, 7" SumOrder="3 648,89" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000093104" Stage="Отгружен" TT="СЕМЕНЮТІНА ГАЛИНА ПИЛИПІВНА(МАГАЗИН)" Adress="Сорока, Гагаріна, 4" SumOrder="2 388,89" InvoiceNumber="РК000000585679" SumInvoice="2 274,2" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
 		<Order OrderNumber="РК000000093087" Stage="Отгружен" TT="ДОРОВСЬКА ВАЛЕНТИНА ПАВЛІВНА(МАГАЗИН ПРОДУКТИ)" Adress="Вінниця, РІГ ГОНТИ-ПІВНІЧНА, ЗУПИНКА" SumOrder="1 293,43" InvoiceNumber="РК000000585660" SumInvoice="1 293,5" F2="FALSE" XPEditor=""/>
@@ -100,24 +109,26 @@
 		<Order OrderNumber="РК000000093103" Stage="Отгружен" TT="СИТНИК ВАЛЕНТИНА ВІТАЛІЇВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Крижопіль, Суворова, 11" SumOrder="1 706,04" InvoiceNumber="РК000000585677" SumInvoice="1 706,04" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0062" AgentName="Скоцький Дмитро (ваг)">
+		<Order OrderNumber="РК000000093133" Stage="НеОбработан" TT="ГАЛУЩАК ОКСАНА ВІТАЛІЇВНА маг. &quot;Продукти&quot;" Adress="Липки, Без вулиці, " SumOrder="2 260,28" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093095" Stage="Отгружен" TT="КРАСНОСТУП ВАДИМ ОЛЕГОВИЧ М-Н &quot;СМАК&quot;" Adress="Адампіль, Червоноармійська, 18" SumOrder="1 486,25" InvoiceNumber="РК000000585655" SumInvoice="1 086,7" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093086" Stage="Отгружен" TT="Юрчишина С.М. ПП, маг. &quot;Продукти&quot;" Adress="Залісся, Орлика Пилипа (Леніна), 18/а" SumOrder="2 618,69" InvoiceNumber="РК000000585658" SumInvoice="2 450,7" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000093101" Stage="Отгружен" TT="ЗНАЄМСЬКИЙ ОЛЕКСІЙ ВОЛОДИМИРОВИЧ маг. &quot;Насолода&quot;" Adress="Адампіль, Лесі Українки, 20/1" SumOrder="1 600,93" InvoiceNumber="РК000000585675" SumInvoice="1 361,7" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0016" AgentName="Керосина Оксана">
-		<Order OrderNumber="РК000000092972" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, 600-річчя, 17- Е" SumOrder="3 419,28" InvoiceNumber="РК000000585507" SumInvoice="3 419,28" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092910" Stage="Отгружен" TT="ФЕСЕНКО ЛЮБОВ МИХАЙЛІВНА(МАГАЗИН&quot;МАЛИНА №3&quot;)" Adress="Немирів, Соборна, 80" SumOrder="1 328,06" InvoiceNumber="РК000000585495" SumInvoice="1 328,06" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092957" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Оводова Миколи, 51" SumOrder="2 528,86" InvoiceNumber="РК000000585503" SumInvoice="2 528,86" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092970" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, КОСМОНАВТІВ, 49" SumOrder="2 573,05" InvoiceNumber="РК000000585506" SumInvoice="2 573,05" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092918" Stage="Отгружен" TT="БОЖОК ІГОР ІГОРОВИЧ  РОМАШКА" Adress="Вінниця, Дубовецька, 37 а" SumOrder="809,62" InvoiceNumber="РК000000585497" SumInvoice="809,7" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
-		<Order OrderNumber="РК000000092934" Stage="Отгружен" TT="ЩЕРБАНЬ ВОЛОДИМИР ІВАНОВИЧ УКРТОВАРИ" Adress="Вінниця, Волошкова, 9" SumOrder="1 679,58" InvoiceNumber="РК000000585499" SumInvoice="1 679,58" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092887" Stage="Отгружен" TT="КОНОВАЛЬЧУК ОКСАНА ВАСИЛІВНА  М-Н  &quot;КАРАВАН&quot;" Adress="Лука-Мелешківська, Тиврівське шосе, 21" SumOrder="4 955,95" InvoiceNumber="РК000000585494" SumInvoice="4 956" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092963" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, ЮНОСТІ, 18" SumOrder="1 792,3" InvoiceNumber="РК000000585505" SumInvoice="1 792,3" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092976" Stage="Отгружен" TT="ТОВ &quot;МЕТРО Кеш енд Кері Україна&quot; &quot;МЕТРО КЕШ ЕНД КЕРІ УКРАЇНА&quot;" Adress="Зарванці, 0.5 КМ ХМЕЛЬНИЦЬКОГО ШОСЕ, 1" SumOrder="2 995,34" InvoiceNumber="РК000000585508" SumInvoice="2 995,34" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
+		<Order OrderNumber="РК000000092934" Stage="Отгружен" TT="ЩЕРБАНЬ ВОЛОДИМИР ІВАНОВИЧ УКРТОВАРИ" Adress="Вінниця, Волошкова, 9" SumOrder="1 679,58" InvoiceNumber="РК000000585499" SumInvoice="1 679,58" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
+		<Order OrderNumber="РК000000092935" Stage="Отгружен" TT="ТОВ &quot;АЛЬЯНС РІТЕЙЛ ГРУП&quot; ОСНОВА" Adress="Вінниця, Д.Нечая, 164" SumOrder="2 152,99" InvoiceNumber="РК000000585500" SumInvoice="2 152,99" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
+		<Order OrderNumber="РК000000092972" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, 600-річчя, 17- Е" SumOrder="3 419,28" InvoiceNumber="РК000000585507" SumInvoice="3 419,28" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
+		<Order OrderNumber="РК000000092942" Stage="Отгружен" TT="Грош 01 (АРГОН)" Adress="Вінниця, Чехова, 23" SumOrder="1 787,39" InvoiceNumber="РК000000585513" SumInvoice="1 787,4" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092928" Stage="Отгружен" TT="КОПІЦА ЮЛІЯ МИКОЛАЇВНА УКРАЇНОЧКА" Adress="Вінниця, Немирівське шосе, 94" SumOrder="1 515,53" InvoiceNumber="РК000000585498" SumInvoice="1 515,53" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092878" Stage="Отгружен" TT="ПРИВАТНЕ ПІДПРИЄМСТВО &quot;ЖЕНЕВА - ПЛЮС&quot; МАГАЗИН ВАРШАВА " Adress="Вінниця, 50 РОКІВ ПЕРЕМОГИ, 1" SumOrder="3 659,18" InvoiceNumber="РК000000585493" SumInvoice="3 659,18" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092875" Stage="Отгружен" TT="ПРИВАТНЕ ПІДПРИЄМСТВО &quot;ЖЕНЕВА - ПЛЮС&quot;  МАГ-Н ВАРШАВА" Adress="Вінниця, Хмельницьке шосе, 15" SumOrder="1 549,92" InvoiceNumber="РК000000585492" SumInvoice="1 549,92" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
-		<Order OrderNumber="РК000000092935" Stage="Отгружен" TT="ТОВ &quot;АЛЬЯНС РІТЕЙЛ ГРУП&quot; ОСНОВА" Adress="Вінниця, Д.Нечая, 164" SumOrder="2 152,99" InvoiceNumber="РК000000585500" SumInvoice="2 152,99" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092954" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Келецька, 105" SumOrder="2 995,34" InvoiceNumber="РК000000585502" SumInvoice="2 995,34" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092959" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Келецька, 121" SumOrder="3 705,72" InvoiceNumber="РК000000585504" SumInvoice="3 705,72" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092981" Stage="Отгружен" TT="ВИБИВАНА АНАСТАСІЯ ВОЛОДИМИРІВНА_МАГАЗИН &quot;РОМАШКА&quot;" Adress="Вінниця, Пирогова, 71А" SumOrder="2 180,29" InvoiceNumber="РК000000585509" SumInvoice="2 180,3" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
@@ -125,6 +136,5 @@
 		<Order OrderNumber="РК000000092986" Stage="Отгружен" TT="ВИБИВАНА АНАСТАСІЯ ВОЛОДИМИРІВНА_МАГАЗИН &quot;РОМАШКА&quot;" Adress="Вінниця, Пирогова, 71А" SumOrder="5 721,28" InvoiceNumber="РК000000585511" SumInvoice="5 721,3" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092946" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Зодчих, 2" SumOrder="4 915,31" InvoiceNumber="РК000000585501" SumInvoice="4 915,31" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000092896" Stage="Отгружен" TT="КОВАЛЮК СВІТЛАНА АНАТОЛІЇВНА  маг-н ТУТ" Adress="Вінниця, Київська, 45" SumOrder="1 734,26" InvoiceNumber="РК000000585512" SumInvoice="1 734,3" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
-		<Order OrderNumber="РК000000092942" Stage="Отгружен" TT="Грош 01 (АРГОН)" Adress="Вінниця, Чехова, 23" SumOrder="1 787,39" InvoiceNumber="РК000000585513" SumInvoice="1 787,4" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 	</Agent>
 </Day>
