@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="26.06.2024">
+	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
+		<Order OrderNumber="РК000000094470" Stage="Обработан" TT="ЧОРНОПИСКИЙ ДЕНИС ОЛЕКСАНДРОВИЧ наша ряба" Adress="Вінниця, Маяковського, 142" SumOrder="1 142,92" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000094471" Stage="НеОбработан" TT="ЄЛІСЄЄВА АНАСТАСІЯ ЛЕОНІДІВНА М-Н СТРАРОМІСЬКЕ" Adress="Вінниця, Маяковського, 140" SumOrder="6 875,75" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000094457" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000587030" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000094458" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000587031" SumInvoice="162" F2="FALSE" XPEditor=""/>
