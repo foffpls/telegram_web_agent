@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="27.06.2024">
 	<Agent Login="UA002-0059" AgentName="Костишин Роман (ваг)">
-		<Order OrderNumber="РК000000095031" Stage="Отгружен" TT="ЖЕРЕБЮК ОЛЕКСАНДР МИКОЛАЙОВИЧ КІОСК N234" Adress="Калинівка, ПРОМИСЛОВА, 234" SumOrder="4 447,25" InvoiceNumber="РК000000587615" SumInvoice="2 560,7" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000095030" Stage="НеОбработан" TT="КОЛОМІЄЦЬ ВАЛЕНТИНА ВОЛОДИМИРІВНА НАПРОТИ РАК.235" Adress="Калинівка, ПРОМИСЛОВА, 235" SumOrder="2 032,86" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000095031" Stage="Отгружен" TT="ЖЕРЕБЮК ОЛЕКСАНДР МИКОЛАЙОВИЧ КІОСК N234" Adress="Калинівка, ПРОМИСЛОВА, 234" SumOrder="4 447,25" InvoiceNumber="РК000000587615" SumInvoice="2 560,7" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Антохова Катерина (ваг)">
+		<Order OrderNumber="РК000000095033" Stage="НеОбработан" TT="ТКАЧ ЛЮДМИЛА ВІКТОРІВНА МАГ. ПРОДУКТИ" Adress="Гнатків, ЛЕНІНА, 5-А" SumOrder="4 918,97" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
 		<Order OrderNumber="РК000000095032" Stage="Отгружен" TT="ВАСИЛИШИНА ТЕТЯНА ВОЛОДИМИРІВНА ПРОДУКТИ" Adress="Вінниця, ЯРМОЛИ МЕЛЕШКИ, 1" SumOrder="4 457,08" InvoiceNumber="РК000000587616" SumInvoice="3 621,3" F2="FALSE" XPEditor=""/>
