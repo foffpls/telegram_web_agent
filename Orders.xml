@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="16.07.2024">
-	<Agent Login="UA002-0017" AgentName="Дишленко Владислав! (ваг)2">
-		<Order OrderNumber="РК000000103414" Stage="Новый" TT="КАЗІМІР ЮРІЙ ВАСИЛЬОВИЧ  М-Н &quot;КОПІЙКА&quot;" Adress="Серебрія, Леніна, 81" SumOrder="1 209,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000103412" Stage="Отгружен" TT="КАЗІМІР МАРИНА ЮРІЇВНА М-Н &quot;НАСТУСЯ&quot;" Adress="Серебрія, Беделя, 7" SumOrder="881,14" InvoiceNumber="РК000000596039" SumInvoice="881,2" F2="FALSE" XPEditor=""/>
-	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000103399" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000596027" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000103400" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000596028" SumInvoice="162" F2="FALSE" XPEditor=""/>
@@ -21,5 +17,9 @@
 	</Agent>
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
 		<Order OrderNumber="РК000000103413" Stage="Отгружен" TT="СОЛОВЕЙ ОЛЕКСАНДР ВОЛОДИМИРОВИЧ ПРОДУКТИ" Adress="Шевченкове, Жовтнева, 44" SumOrder="963,05" InvoiceNumber="РК000000596040" SumInvoice="963,1" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0017" AgentName="Дишленко Владислав! (ваг)2">
+		<Order OrderNumber="РК000000103412" Stage="Отгружен" TT="КАЗІМІР МАРИНА ЮРІЇВНА М-Н &quot;НАСТУСЯ&quot;" Adress="Серебрія, Беделя, 7" SumOrder="881,14" InvoiceNumber="РК000000596039" SumInvoice="881,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000103414" Stage="НеОбработан" TT="КАЗІМІР ЮРІЙ ВАСИЛЬОВИЧ  М-Н &quot;КОПІЙКА&quot;" Adress="Серебрія, Леніна, 81" SumOrder="1 209,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
