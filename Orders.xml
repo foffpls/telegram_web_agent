@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="07.08.2024">
+	<Agent Login="UA002-0031" AgentName="Зелінський Владислав (фас)">
+		<Order OrderNumber="РК000000114569" Stage="ЧастичноОбработан" TT="НАУМЕНКО ВІТАЛІЙ ЮРІЙОВИЧ МАГ. ПРОДУКТИ" Adress="Щаслива, БУДЬОНОГО, 1" SumOrder="886,1" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0037" AgentName="Філіпішин Дмитро (ваг)">
+		<Order OrderNumber="РК000000114571" Stage="Отгружен" TT="ОРЛОВ ДМИТРО ЄВФИМОВИЧ БІЛЯ ШКОЛИ" Adress="Шура-Копіївська, ЛЕНІНА, 117" SumOrder="1 353,18" InvoiceNumber="РК000000606891" SumInvoice="1 353,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000114572" Stage="Отгружен" TT="ОРЛОВ ДМИТРО ЄВФИМОВИЧ БІЛЯ ШКОЛИ" Adress="Шура-Копіївська, ЛЕНІНА, 117" SumOrder="593,86" InvoiceNumber="РК000000606889" SumInvoice="593,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000114573" Stage="Отгружен" TT="ОРЛОВ ДМИТРО ЄВФИМОВИЧ БІЛЯ ШКОЛИ" Adress="Шура-Копіївська, ЛЕНІНА, 117" SumOrder="4,32" InvoiceNumber="РК000000606890" SumInvoice="4,4" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0017" AgentName="Дишленко Владислав! (ваг)2">
 		<Order OrderNumber="РК000000114568" Stage="НеОбработан" TT="СІВАК ЛЮДМИЛА ОЛЕКСАНДРІВНА М-Н НА АЗС" Adress="Якушинці, А/Д М-21 Житомир- Могилів- Подільський (через Вінницю) км 130+780, " SumOrder="1 506,56" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
+		<Order OrderNumber="РК000000114570" Stage="НеОбработан" TT="НЕПИЙВОДА ОЛЕСЯ ПЕТРІВНА МАГАЗИН БЛАГО" Adress="Вінниця, Пирогова, 151А" SumOrder="1 168,85" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
