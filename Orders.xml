@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="21.08.2024">
+	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000122455" Stage="ЧастичноОбработан" TT="ІВАНІК ОЛЕКСАНДР МИКОЛАЙОВИЧ МАГ.МАРИНА" Adress="Літин, КАРМЕЛЮКА, 88 А" SumOrder="375,48" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000122456" Stage="Отгружен" TT="ІВАНІК ОЛЕКСАНДР МИКОЛАЙОВИЧ МАГ.МАРИНА" Adress="Літин, КАРМЕЛЮКА, 88 А" SumOrder="3 035,81" InvoiceNumber="РК000000614506" SumInvoice="2 935,6" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
+		<Order OrderNumber="РК000000122437" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614493" SumInvoice="162" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000122438" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614494" SumInvoice="162" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000122439" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614495" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000122440" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614496" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000122441" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614497" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000122442" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614498" SumInvoice="162" F2="FALSE" XPEditor=""/>
@@ -11,12 +18,12 @@
 		<Order OrderNumber="РК000000122447" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614492" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000122448" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614503" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000122449" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614504" SumInvoice="162" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000122437" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614493" SumInvoice="162" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000122438" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614494" SumInvoice="162" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000122439" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000614495" SumInvoice="162" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0037" AgentName="Філіпішин Дмитро (ваг)">
 		<Order OrderNumber="РК000000122453" Stage="Отгружен" TT="ОРЛОВ ДМИТРО ЄВФИМОВИЧ БІЛЯ ШКОЛИ" Adress="Шура-Копіївська, ЛЕНІНА, 117" SumOrder="3 003,79" InvoiceNumber="РК000000614505" SumInvoice="2 877,8" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
+		<Order OrderNumber="РК000000122454" Stage="НеОбработан" TT="ЧОРНОПИСКИЙ ДЕНИС ОЛЕКСАНДРОВИЧ наша ряба" Adress="Вінниця, Маяковського, 142" SumOrder="2 524,2" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
 		<Order OrderNumber="РК000000122450" Stage="НеОбработан" TT="КОЗЯР ОЛЕКСАНДР ОЛЕКСАНДРОВИЧ МАГ-Н ЛЕСЯ" Adress="Вінниця, ЛЕСІ УКРАЇНКИ, 13" SumOrder="3 035,81" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
