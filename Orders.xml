@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<Day Date="03.09.2024"/>
+<Day Date="03.09.2024">
+	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
+		<Order OrderNumber="РК000000128938" Stage="ЧастичноОбработан" TT="ЖМУРКО ЛЮДМИЛА ВАСИЛІВНА  МАГАЗИН &quot;ПЕРЛИНА&quot;" Adress="Носківці, Леніна, 5" SumOrder="2 275,33" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0041" AgentName="Ростецький Руслан (ваг)">
+		<Order OrderNumber="РК000000128937" Stage="НеОбработан" TT="КЕРНИЧНА ОЛЕНА ВАСИЛІВНА (МАГАЗИН&quot;ВАЛЄНА&quot;)" Adress="Корделівка, Київська, 20" SumOrder="7 030,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+</Day>
