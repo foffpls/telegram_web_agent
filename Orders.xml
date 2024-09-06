@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="06.09.2024">
+	<Agent Login="UA002-0007" AgentName="Засієнко Юрій (фас)">
+		<Order OrderNumber="РК000000131840" Stage="ЧастичноОбработан" TT="СВАРИЧЕВСЬКА ЛЮДМИЛА ПЕТРІВНА(МІНІ-МАРКЕТ)" Adress="Могилів-Подільський, Коцюбинського, 12-А" SumOrder="10,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000131837" Stage="Отгружен" TT="СВАРИЧЕВСЬКА ЛЮДМИЛА ПЕТРІВНА(МІНІ-МАРКЕТ)" Adress="Могилів-Подільський, Коцюбинського, 12-А" SumOrder="295,61" InvoiceNumber="РК000000623662" SumInvoice="295,7" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000131838" Stage="Отгружен" TT="СВАРИЧЕВСЬКА ЛЮДМИЛА ПЕТРІВНА(МІНІ-МАРКЕТ)" Adress="Могилів-Подільський, Коцюбинського, 12-А" SumOrder="1 328,4" InvoiceNumber="РК000000623661" SumInvoice="1 328,4" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000131820" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000623649" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000131821" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000623650" SumInvoice="162" F2="FALSE" XPEditor=""/>
@@ -17,6 +22,11 @@
 	</Agent>
 	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
 		<Order OrderNumber="РК000000131833" Stage="НеОбработан" TT="ТАРАСЕНКО СЕРГІЙ ВОЛОДИМИРОВИЧ продукти" Adress="Вінниця, МОСКОВСЬКА, 1" SumOrder="2 471" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0037" AgentName="Філіпішин Дмитро (ваг)">
+		<Order OrderNumber="РК000000131834" Stage="НеОбработан" TT="ТОВ &quot;НАШ КАРАВАН&quot;" Adress="Липовець, Зіндельса, 16" SumOrder="305,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000131835" Stage="НеОбработан" TT="ТОВ &quot;НАШ КАРАВАН&quot;" Adress="Липовець, Зіндельса, 16" SumOrder="1 396,18" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000131836" Stage="НеОбработан" TT="ТОВ &quot;НАШ КАРАВАН&quot;" Adress="Липовець, Зіндельса, 16" SumOrder="1 105,4" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
 		<Order OrderNumber="РК000000131819" Stage="НеОбработан" TT="ЖМУРКО ЛЮДМИЛА ВАСИЛІВНА  МАГАЗИН &quot;ПЕРЛИНА&quot;" Adress="Носківці, Леніна, 5" SumOrder="814,28" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
