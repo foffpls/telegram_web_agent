@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<Day Date="17.09.2024"/>
+<Day Date="17.09.2024">
+	<Agent Login="UA002-0029" AgentName="Горупашенко Володимир (ваг)">
+		<Order OrderNumber="РК000000137780" Stage="НеОбработан" TT="КОЧМАРУК ІННА ХУСАЙНІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Олександрівка, Шевченка, 15" SumOrder="1 805,93" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
+		<Order OrderNumber="РК000000137782" Stage="НеОбработан" TT="ГУК ЛІДІЯ ЛЕОНІДІВНА МАГАЗИН ЛІЛІЯ" Adress="Обухів, Шкільна, 21" SumOrder="2 945,83" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
+		<Order OrderNumber="РК000000137781" Stage="НеОбработан" TT="ГОНЧАР ЛЮДМИЛА КОРНІЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Українське, ЖОВТНЕВА, 35" SumOrder="1 746,73" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+</Day>
