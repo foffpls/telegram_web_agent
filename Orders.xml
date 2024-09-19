@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="19.09.2024">
+	<Agent Login="UA002-0061" AgentName="Возняк Ярослав (фас)">
+		<Order OrderNumber="РК000000139398" Stage="Отгружен" TT="ГРИГОРЕНКО ВАСИЛЬ ВАСИЛЬОВИЧ М-Н ПРОДУКТИ" Adress="Високе, ЛЕНІНА, " SumOrder="823,68" InvoiceNumber="РК000000631240" SumInvoice="823,7" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
 		<Order OrderNumber="РК000000139396" Stage="Отгружен" TT="ВАСИЛИШИНА ТЕТЯНА ВОЛОДИМИРІВНА ПРОДУКТИ" Adress="Вінниця, ЯРМОЛИ МЕЛЕШКИ, 1" SumOrder="2 399,66" InvoiceNumber="РК000000631239" SumInvoice="1 956,9" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
+		<Order OrderNumber="РК000000139397" Stage="НеОбработан" TT="БУТКОВСЬКА ІННА ФРАНЦІВНА МАГАЗИН - КАФЕ" Adress="Копайгород, Центральна, 29/11" SumOrder="2 650,64" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0016" AgentName="Керосина Оксана">
 		<Order OrderNumber="РК000000138751" Stage="Отгружен" TT="ПЕРЕПЕЛИЦЯ ЯНА СЕРГІЇВНА_МАГАЗИН &quot;РОМАШКА&quot;" Adress="Липовець, Липківського, 63" SumOrder="2 673,17" InvoiceNumber="РК000000630569" SumInvoice="2 673,2" F2="FALSE" XPEditor="Мельнийчук Вадим Миколайович"/>
