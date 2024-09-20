@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="20.09.2024">
-	<Agent Login="UA002-0002" AgentName="Бородін Андрій ! (фас)">
-		<Order OrderNumber="РК000000140190" Stage="Отгружен" TT="КАЗІМІР ЮРІЙ ВАСИЛЬОВИЧ  М-Н &quot;КОПІЙКА&quot;" Adress="Серебрія, Леніна, 81" SumOrder="1 298,47" InvoiceNumber="РК000000631973" SumInvoice="889,3" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0008" AgentName="Кузьмінський Вадим (фас)">
-		<Order OrderNumber="РК000000140181" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="601,92" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000140180" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="1 655,76" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
 	<Agent Login="UA002-0061" AgentName="Возняк Ярослав (фас)">
+		<Order OrderNumber="РК000000140192" Stage="Обработан" TT="КОСМИНА КАТЕРИНА ПЕТРІВНА КОСМИНА К.П. МАГАЗИН" Adress="Селище, ЖОВТНЕВА, 43" SumOrder="244,73" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000140193" Stage="Обработан" TT="КОСМИНА КАТЕРИНА ПЕТРІВНА КОСМИНА К.П. МАГАЗИН" Adress="Селище, ЖОВТНЕВА, 43" SumOrder="95,04" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000140194" Stage="Обработан" TT="КОСМИНА КАТЕРИНА ПЕТРІВНА КОСМИНА К.П. МАГАЗИН" Adress="Селище, ЖОВТНЕВА, 43" SumOrder="2 193,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000140195" Stage="Обработан" TT="КОСМИНА КАТЕРИНА ПЕТРІВНА КОСМИНА К.П. МАГАЗИН" Adress="Селище, ЖОВТНЕВА, 43" SumOrder="1,08" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000140174" Stage="НеОбработан" TT="ПУСТОВА ОЛЕКСАНДРА ВІКТОРІВНА М-Н ПРОДУКТИ" Adress="Селище, ЖОВТНЕВА, 47" SumOrder="815,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000140172" Stage="НеОбработан" TT="ПУСТОВА ОЛЕКСАНДРА ВІКТОРІВНА М-Н ПРОДУКТИ" Adress="Селище, ЖОВТНЕВА, 47" SumOrder="1 328,4" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000140173" Stage="НеОбработан" TT="ПУСТОВА ОЛЕКСАНДРА ВІКТОРІВНА М-Н ПРОДУКТИ" Adress="Селище, ЖОВТНЕВА, 47" SumOrder="773,95" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000140171" Stage="НеОбработан" TT="ПУСТОВА ОЛЕКСАНДРА ВІКТОРІВНА М-Н ПРОДУКТИ" Adress="Селище, ЖОВТНЕВА, 47" SumOrder="462,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0002" AgentName="Бородін Андрій ! (фас)">
+		<Order OrderNumber="РК000000140190" Stage="Отгружен" TT="КАЗІМІР ЮРІЙ ВАСИЛЬОВИЧ  М-Н &quot;КОПІЙКА&quot;" Adress="Серебрія, Леніна, 81" SumOrder="1 298,47" InvoiceNumber="РК000000631973" SumInvoice="889,3" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000140191" Stage="НеОбработан" TT="ШИЛІНА ЗОЯ ОЛЕКСАНДРІВНА МАГ.ЗАЙДІТЬ" Adress="Комсомольське, КИЇВСЬКА, 65" SumOrder="1 386,96" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0008" AgentName="Кузьмінський Вадим (фас)">
+		<Order OrderNumber="РК000000140181" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="601,92" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000140180" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="1 655,76" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0037" AgentName="Філіпішин Дмитро (ваг)">
 		<Order OrderNumber="РК000000140178" Stage="НеОбработан" TT="ТОВ &quot;НАШ КАРАВАН&quot;" Adress="Липовець, Зіндельса, 16" SumOrder="612,38" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
