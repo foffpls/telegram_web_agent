@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="24.09.2024">
+	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
+		<Order OrderNumber="РК000000141518" Stage="Обработан" TT="СОЛОВЕЙ ОЛЕКСАНДР ВОЛОДИМИРОВИЧ ПРОДУКТИ" Adress="Шевченкове, Жовтнева, 44" SumOrder="1 498,64" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0059" AgentName="Мацьків Максім (ваг)">
-		<Order OrderNumber="РК000000141515" Stage="Новый" TT="ПИЛЯВЕЦЬ СЕРГІЙ КИРИЛОВИЧ ПРОДУКТИ" Adress="Лісова Лисіївка, ВІННИЦЬКА , 1" SumOrder="2 562,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000141519" Stage="Новый" TT="ПИЛЯВЕЦЬ СЕРГІЙ КИРИЛОВИЧ ПРОДУКТИ" Adress="Лісова Лисіївка, ШЕВЧЕНКА, 37" SumOrder="1 419,5" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000141520" Stage="Новый" TT="ПИЛЯВЕЦЬ СЕРГІЙ КИРИЛОВИЧ ПРОДУКТИ" Adress="Лісова Лисіївка, ШЕВЧЕНКА, 37" SumOrder="2 153,96" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000141519" Stage="НеОбработан" TT="ПИЛЯВЕЦЬ СЕРГІЙ КИРИЛОВИЧ ПРОДУКТИ" Adress="Лісова Лисіївка, ШЕВЧЕНКА, 37" SumOrder="1 419,5" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000141520" Stage="НеОбработан" TT="ПИЛЯВЕЦЬ СЕРГІЙ КИРИЛОВИЧ ПРОДУКТИ" Adress="Лісова Лисіївка, ШЕВЧЕНКА, 37" SumOrder="2 153,96" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000141515" Stage="НеОбработан" TT="ПИЛЯВЕЦЬ СЕРГІЙ КИРИЛОВИЧ ПРОДУКТИ" Adress="Лісова Лисіївка, ВІННИЦЬКА , 1" SumOrder="2 562,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Сус Віталій (ваг)">
+		<Order OrderNumber="РК000000141521" Stage="НеОбработан" TT="БІЛАН ВАДИМ ПЕТРОВИЧ (МАГ-Н&quot;ПОДОЛЯНКА&quot;)" Adress="Жмеринка, Київська, 131" SumOrder="3 620,66" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0037" AgentName="Філіпішин Дмитро (ваг)">
+		<Order OrderNumber="РК000000141522" Stage="НеОбработан" TT="ПЕРЕДРІЙ НАТАЛЯ ВАСИЛІВНА(МАГАЗИН ПРОДУКТИ)" Adress="Жмеринка, Магістральна, 30-Б" SumOrder="1 534,24" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0035" AgentName="Мартиневич Артем (ваг)">
-		<Order OrderNumber="РК000000141516" Stage="Новый" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="7 498,13" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
-		<Order OrderNumber="РК000000141518" Stage="Новый" TT="СОЛОВЕЙ ОЛЕКСАНДР ВОЛОДИМИРОВИЧ ПРОДУКТИ" Adress="Шевченкове, Жовтнева, 44" SumOrder="1 498,64" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000141516" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="7 397,4" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
