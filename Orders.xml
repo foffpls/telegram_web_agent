@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="25.09.2024">
-	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
-		<Order OrderNumber="РК000000142727" Stage="Обработан" TT="ГОРБАТЮК ОЛЕКСАНДР ВІТАЛІЙОВИЧ" Adress="Липовець, В.ЛИПКІВСЬКОГО, 55 А" SumOrder="1 063,2" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
 	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
-		<Order OrderNumber="РК000000142720" Stage="ЧастичноОбработан" TT="ПОПІЛЬ ОКСАНА ВАЛЕРІЇВНА  М-Н &quot;ПРОДУКТИ&quot;" Adress="Гуменне, Л.Українки, 22а" SumOrder="2 713,27" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142720" Stage="Отгружен" TT="ПОПІЛЬ ОКСАНА ВАЛЕРІЇВНА  М-Н &quot;ПРОДУКТИ&quot;" Adress="Гуменне, Л.Українки, 22а" SumOrder="2 713,27" InvoiceNumber="РК000000634539" SumInvoice="2 599,3" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000142723" Stage="НеОбработан" TT="СТАСЮК ВАЛЕНТИНА ФЕДОРІВНА МАГ.ПРОДУКТИ" Adress="Гуменне, ЛЕНІНА, 6" SumOrder="3 630,48" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
+		<Order OrderNumber="РК000000142727" Stage="Отгружен" TT="ГОРБАТЮК ОЛЕКСАНДР ВІТАЛІЙОВИЧ" Adress="Липовець, В.ЛИПКІВСЬКОГО, 55 А" SumOrder="1 063,2" InvoiceNumber="РК000000634540" SumInvoice="1 063,2" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000142729" Stage="НеОбработан" TT="ІВАНІК ОЛЕКСАНДР МИКОЛАЙОВИЧ МАГ.МАРИНА" Adress="Літин, КАРМЕЛЮКА, 88 А" SumOrder="2 156,28" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
 		<Order OrderNumber="РК000000142722" Stage="НеОбработан" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА маркет плюс" Adress="Вінниця, Максимовича, 10" SumOrder="1 331,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
