@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="25.09.2024">
+	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
+		<Order OrderNumber="РК000000142727" Stage="Обработан" TT="ГОРБАТЮК ОЛЕКСАНДР ВІТАЛІЙОВИЧ" Adress="Липовець, В.ЛИПКІВСЬКОГО, 55 А" SumOrder="1 063,2" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
-		<Order OrderNumber="РК000000142720" Stage="Новый" TT="ПОПІЛЬ ОКСАНА ВАЛЕРІЇВНА  М-Н &quot;ПРОДУКТИ&quot;" Adress="Гуменне, Л.Українки, 22а" SumOrder="2 713,27" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000142723" Stage="Новый" TT="СТАСЮК ВАЛЕНТИНА ФЕДОРІВНА МАГ.ПРОДУКТИ" Adress="Гуменне, ЛЕНІНА, 6" SumOrder="3 630,48" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142720" Stage="ЧастичноОбработан" TT="ПОПІЛЬ ОКСАНА ВАЛЕРІЇВНА  М-Н &quot;ПРОДУКТИ&quot;" Adress="Гуменне, Л.Українки, 22а" SumOrder="2 713,27" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142723" Stage="НеОбработан" TT="СТАСЮК ВАЛЕНТИНА ФЕДОРІВНА МАГ.ПРОДУКТИ" Adress="Гуменне, ЛЕНІНА, 6" SumOrder="3 630,48" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
-		<Order OrderNumber="РК000000142722" Stage="Новый" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА маркет плюс" Adress="Вінниця, Максимовича, 10" SumOrder="1 331,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000142721" Stage="Новый" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА маркет плюс" Adress="Вінниця, Максимовича, 10" SumOrder="756,59" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000142726" Stage="Новый" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА  маркет плюс" Adress="Вінниця, ЛЕРМОНТОВА, 173" SumOrder="3 299,57" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000142725" Stage="Новый" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА  маркет плюс" Adress="Вінниця, ЛЕРМОНТОВА, 173" SumOrder="2 656,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142722" Stage="НеОбработан" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА маркет плюс" Adress="Вінниця, Максимовича, 10" SumOrder="1 331,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142721" Stage="НеОбработан" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА маркет плюс" Adress="Вінниця, Максимовича, 10" SumOrder="756,59" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142726" Stage="НеОбработан" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА  маркет плюс" Adress="Вінниця, ЛЕРМОНТОВА, 173" SumOrder="3 299,57" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142725" Stage="НеОбработан" TT="ДУБЧАК НАТАЛІЯ ВІКТОРІВНА  маркет плюс" Adress="Вінниця, ЛЕРМОНТОВА, 173" SumOrder="2 656,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0059" AgentName="Мацьків Максім (ваг)">
-		<Order OrderNumber="РК000000142724" Stage="Новый" TT="БІЛОЗОРА ВАЛЕНТИНА ОЛЕКСАНДРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Павлівка, Центральна, 45" SumOrder="1 192,34" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
-		<Order OrderNumber="РК000000142727" Stage="Новый" TT="ГОРБАТЮК ОЛЕКСАНДР ВІТАЛІЙОВИЧ" Adress="Липовець, В.ЛИПКІВСЬКОГО, 55 А" SumOrder="1 063,2" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000142724" Stage="НеОбработан" TT="БІЛОЗОРА ВАЛЕНТИНА ОЛЕКСАНДРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Павлівка, Центральна, 45" SumOrder="1 192,34" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
