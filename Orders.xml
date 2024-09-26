@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="26.09.2024">
 	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
-		<Order OrderNumber="РК000000143574" Stage="Новый" TT="ГОНЧАР ЛЮДМИЛА КОРНІЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Українське, ЖОВТНЕВА, 35" SumOrder="1 550,17" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000143574" Stage="НеОбработан" TT="ГОНЧАР ЛЮДМИЛА КОРНІЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Українське, ЖОВТНЕВА, 35" SumOrder="1 550,17" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000143578" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000635395" SumInvoice="162" F2="FALSE" XPEditor=""/>
@@ -19,14 +19,14 @@
 		<Order OrderNumber="РК000000143577" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000635394" SumInvoice="162" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0059" AgentName="Мацьків Максім (ваг)">
-		<Order OrderNumber="РК000000143575" Stage="Новый" TT="КОЛОМІЄЦЬ ВАЛЕНТИНА ВОЛОДИМИРІВНА НАПРОТИ РАК.235" Adress="Калинівка, ПРОМИСЛОВА, 235" SumOrder="1 704" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000143593" Stage="Новый" TT="КОСТЮК СВІТЛАНА АНАТОЛІЇВНА(МАГАЗИН&quot;СОЛОДЕНЬКИЙ&quot;)" Adress="Калинівка, ПРОМИСЛОВА, БАЗАР" SumOrder="5 068,68" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000143592" Stage="Новый" TT="КОСТЮК СВІТЛАНА АНАТОЛІЇВНА(МАГАЗИН&quot;СОЛОДЕНЬКИЙ&quot;)" Adress="Калинівка, ПРОМИСЛОВА, БАЗАР" SumOrder="1 154,42" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000143576" Stage="Новый" TT="КОЛОМІЄЦЬ ВАЛЕНТИНА ВОЛОДИМИРІВНА НАПРОТИ РАК.235" Adress="Калинівка, ПРОМИСЛОВА, 235" SumOrder="4 805,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000143575" Stage="НеОбработан" TT="КОЛОМІЄЦЬ ВАЛЕНТИНА ВОЛОДИМИРІВНА НАПРОТИ РАК.235" Adress="Калинівка, ПРОМИСЛОВА, 235" SumOrder="1 704" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000143593" Stage="ЧастичноОбработан" TT="КОСТЮК СВІТЛАНА АНАТОЛІЇВНА(МАГАЗИН&quot;СОЛОДЕНЬКИЙ&quot;)" Adress="Калинівка, ПРОМИСЛОВА, БАЗАР" SumOrder="5 068,68" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000143592" Stage="Обработан" TT="КОСТЮК СВІТЛАНА АНАТОЛІЇВНА(МАГАЗИН&quot;СОЛОДЕНЬКИЙ&quot;)" Adress="Калинівка, ПРОМИСЛОВА, БАЗАР" SumOrder="1 154,42" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000143576" Stage="НеОбработан" TT="КОЛОМІЄЦЬ ВАЛЕНТИНА ВОЛОДИМИРІВНА НАПРОТИ РАК.235" Adress="Калинівка, ПРОМИСЛОВА, 235" SumOrder="4 805,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0031" AgentName="Зелінський Владислав (фас)">
-		<Order OrderNumber="РК000000143590" Stage="Новый" TT="ДУДНИК ВІТАЛІЙ ВАСИЛЬОВИЧ" Adress="Нестерварка, Дачна, 87" SumOrder="1 762,56" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000143589" Stage="Новый" TT="ДУДНИК ВІТАЛІЙ ВАСИЛЬОВИЧ" Adress="Нестерварка, Дачна, 87" SumOrder="2 193,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000143590" Stage="НеОбработан" TT="ДУДНИК ВІТАЛІЙ ВАСИЛЬОВИЧ" Adress="Нестерварка, Дачна, 87" SumOrder="1 762,56" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000143589" Stage="НеОбработан" TT="ДУДНИК ВІТАЛІЙ ВАСИЛЬОВИЧ" Adress="Нестерварка, Дачна, 87" SumOrder="2 193,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0016" AgentName="Керосина Оксана">
 		<Order OrderNumber="РК000000142982" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Оводова Миколи, 51" SumOrder="3 000,28" InvoiceNumber="РК000000635046" SumInvoice="3 000,28" F2="FALSE" XPEditor="Мельнийчук Вадим Миколайович"/>
