@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="04.10.2024">
-	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
-		<Order OrderNumber="РК000000148297" Stage="Новый" TT="ВЕРГЕЛЕС МАРІЯ ІВАНІВНА РАКУШКА N7-8" Adress="Жмеринка, Привокзальний, " SumOrder="3 580,13" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000148296" Stage="Новый" TT="ВЕРГЕЛЕС МАРІЯ ІВАНІВНА РАКУШКА N7-8" Adress="Жмеринка, Привокзальний, " SumOrder="698,24" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000148283" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000640096" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000148284" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000640097" SumInvoice="162" F2="FALSE" XPEditor=""/>
@@ -18,5 +14,16 @@
 		<Order OrderNumber="РК000000148293" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000640095" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000148294" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000640106" SumInvoice="162" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000148295" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="162" InvoiceNumber="РК000000640107" SumInvoice="162" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
+		<Order OrderNumber="РК000000148297" Stage="НеОбработан" TT="ВЕРГЕЛЕС МАРІЯ ІВАНІВНА РАКУШКА N7-8" Adress="Жмеринка, Привокзальний, " SumOrder="3 580,13" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000148296" Stage="НеОбработан" TT="ВЕРГЕЛЕС МАРІЯ ІВАНІВНА РАКУШКА N7-8" Adress="Жмеринка, Привокзальний, " SumOrder="698,24" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Сус Віталій (ваг)">
+		<Order OrderNumber="РК000000148298" Stage="НеОбработан" TT="ЯРОВА ЛАРИСА МИКОЛАЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Шаргород, СТУСА, 5" SumOrder="1 622,54" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0011" AgentName="Максименко Микола (ваг)">
+		<Order OrderNumber="РК000000148299" Stage="НеОбработан" TT="АНДРІЮК ІГОР ОЛЕКСАНДРОВИЧ маг. &quot;Продукти&quot;" Adress="Вовковинці, Миру, 9" SumOrder="878,42" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000148300" Stage="НеОбработан" TT="АНДРІЮК ІГОР ОЛЕКСАНДРОВИЧ маг. &quot;Продукти&quot;" Adress="Вовковинці, Миру, 9" SumOrder="2 059,2" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
