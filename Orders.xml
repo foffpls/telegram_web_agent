@@ -70,6 +70,7 @@
 	</Agent>
 	<Agent Login="UA002-0007" AgentName="Òó÷èíñüêèé Ñåðã³é (ôàñ)">
 		<Order OrderNumber="ÐÊ000000151878" Stage="ÍåÎáðàáîòàí" TT="ÏÈÑÀÐÑÜÊÀ Â²ÊÒÎÐ²ß ÎËÅÊÑÀÍÄÐ²ÂÍÀ  ÏÐÎÄÒÎÐÃ" Adress="Â³ííèöÿ, ×åõîâà, 9 Â" SumOrder="1 011,74" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000151979" Stage="ÍåÎáðàáîòàí" TT="ÕÀÐ×ÅÍÊÎ ÀËËÀ ÂÀËÅÐ²¯ÂÍÀ Ì-Í &quot;ÞË²ß&quot;" Adress="Â³ííèöÿ, ²ÂÀÍÎÂÀ, 6" SumOrder="1 874,51" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0002" AgentName="Áîðîä³í Àíäð³é ! (ôàñ)">
 		<Order OrderNumber="ÐÊ000000151916" Stage="ÍåÎáðàáîòàí" TT="ÁÀØÈªÂ Â²ÊÒÎÐ ÂÀËÜÒÅÐÎÂÈ× (ÌÀÃÀÇÈÍ)" Adress="Â³ííèöÿ, 1 ÏÐÎÂ. ÊÈ¯ÂÑÜÊÈÉ, 4" SumOrder="2 612,41" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -84,7 +85,7 @@
 	<Agent Login="UA002-0011" AgentName="Ìàêñèìåíêî Ìèêîëà (âàã)">
 		<Order OrderNumber="ÐÊ000000151912" Stage="ÍåÎáðàáîòàí" TT="ÂÀÊÎËÞÊ ÀÍÄÐ²É ÀÍÒÎÍÎÂÈ×  ÌÀÃÀÇÈÍ ÏÐÎÄÓÊÒÈ /ÒÀÐÀÑ²ÂÊÀ/" Adress="Ì³çÿê³âñüê³ Õóòîðè, Ê²ÐÎÂÀ, 35-À" SumOrder="1 579,61" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="ÐÊ000000151911" Stage="ÍåÎáðàáîòàí" TT="ÂÀÊÎËÞÊ ÀÍÄÐ²É ÀÍÒÎÍÎÂÈ×  ÌÀÃÀÇÈÍ ÏÐÎÄÓÊÒÈ /ÒÀÐÀÑ²ÂÊÀ/" Adress="Ì³çÿê³âñüê³ Õóòîðè, Ê²ÐÎÂÀ, 35-À" SumOrder="878,42" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="ÐÊ000000151978" Stage="Îáðàáîòàí" TT="ÊÓÇÜÌÅÍÊÎ ÑÂ²ÒËÀÍÀ ²ÂÀÍ²ÂÍÀ Ì-Í ÏÐÎÄÓÊÒÈ" Adress="Ï³äë³ñíå, ÖÅÍÒÐÀËÜÍÀ, 8" SumOrder="2 905,07" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000151978" Stage="Îòãðóæåí" TT="ÊÓÇÜÌÅÍÊÎ ÑÂ²ÒËÀÍÀ ²ÂÀÍ²ÂÍÀ Ì-Í ÏÐÎÄÓÊÒÈ" Adress="Ï³äë³ñíå, ÖÅÍÒÐÀËÜÍÀ, 8" SumOrder="2 905,07" InvoiceNumber="ÐÊ000000643740" SumInvoice="2 905,1" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="ÐÊ000000151897" Stage="ÍåÎáðàáîòàí" TT="ÂÎËÎÑ ÂÀÑÈËÜ ÑÒÅÏÀÍÎÂÈ× ÌÀÃÀÇÈÍ ÍÀÄ²ß" Adress="Ì³çÿê³âñüê³ Õóòîðè, ËÅÍ²ÍÀ, 19-À" SumOrder="1 996,73" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0073" AgentName="Îëåêñþê Îëüãà">
