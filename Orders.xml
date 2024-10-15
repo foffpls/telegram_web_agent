@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="15.10.2024">
+	<Agent Login="UA002-0002" AgentName="Бородін Андрій ! (фас)">
+		<Order OrderNumber="РК000000154484" Stage="Новый" TT="КУШНІР ПЕТРО МИКОЛАЙОВИЧ М-Н ЄЛЄНА" Adress="Васютинці, Жовтнева, 23" SumOrder="568,32" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000154482" Stage="Обработан" TT="КУШНІР ПЕТРО МИКОЛАЙОВИЧ М-Н ЄЛЄНА" Adress="Васютинці, Жовтнева, 23" SumOrder="1 952,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000154483" Stage="НеОбработан" TT="КУШНІР ПЕТРО МИКОЛАЙОВИЧ М-Н ЄЛЄНА" Adress="Васютинці, Жовтнева, 23" SumOrder="1 401,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
 		<Order OrderNumber="РК000000154471" Stage="Отгружен" TT="КУЧЕРЯВЕНКО АЛЬОНА ЯКИМІВНА МАГАЗИН БІЛЯ ТАМОЖНІ" Adress="Бронниця, ЛЕНІНА, 3А" SumOrder="2 532,12" InvoiceNumber="РК000000646325" SumInvoice="2 372,6" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000154472" Stage="НеОбработан" TT="КАЛКАТИН ЮЛІЯ ВІКТОРІВНА(МАГ-Н АНАСТАСІЯ&quot;)" Adress="Оленівка, Ювілейна, 41А" SumOrder="2 031,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
