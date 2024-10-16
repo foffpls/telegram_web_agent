@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="16.10.2024">
 	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
-		<Order OrderNumber="РК000000155371" Stage="Обработан" TT="ГОРБАТЮК ОЛЕКСАНДР ВІТАЛІЙОВИЧ" Adress="Липовець, В.ЛИПКІВСЬКОГО, 55 А" SumOrder="1 677,07" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000155371" Stage="Отгружен" TT="ГОРБАТЮК ОЛЕКСАНДР ВІТАЛІЙОВИЧ" Adress="Липовець, В.ЛИПКІВСЬКОГО, 55 А" SumOrder="1 677,07" InvoiceNumber="РК000000647243" SumInvoice="1 677,1" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0059" AgentName="Мацьків Максім (ваг)">
+		<Order OrderNumber="РК000000155372" Stage="НеОбработан" TT="БІЛОЗОРА ВАЛЕНТИНА ОЛЕКСАНДРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Павлівка, Центральна, 45" SumOrder="1 475,02" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
