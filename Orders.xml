@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<Day Date="18.10.2024"/>
+<Day Date="18.10.2024">
+	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
+		<Order OrderNumber="РК000000157145" Stage="Отгружен" TT="ПАНЧУК ЛАРИСА АНАТОЛІЇВНА ( МАГАЗИН ПРОДУКТИ)" Adress="Котюжани, Леніна, 10" SumOrder="5 146,24" InvoiceNumber="РК000000649033" SumInvoice="4 845,3" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000157144" Stage="Отгружен" TT="ПАНЧУК ЛАРИСА АНАТОЛІЇВНА ( МАГАЗИН ПРОДУКТИ)" Adress="Котюжани, Леніна, 10" SumOrder="2 803,68" InvoiceNumber="РК000000649034" SumInvoice="2 803,7" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000157146" Stage="Отгружен" TT="ПАНЧУК ЛАРИСА АНАТОЛІЇВНА ( МАГАЗИН ПРОДУКТИ)" Adress="Котюжани, Леніна, 10" SumOrder="21,6" InvoiceNumber="РК000000649035" SumInvoice="21,6" F2="FALSE" XPEditor=""/>
+	</Agent>
+</Day>
