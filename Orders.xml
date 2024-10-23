@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="23.10.2024">
+	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
+		<Order OrderNumber="РК000000159859" Stage="Обработан" TT="ОЧЕРЕТНИЙ В'ЯЧЕСЛАВ ІГОРОВИЧ  (МАГ.МАГАЗИНЧИК)" Adress="Десна, ГАГАРІНА, 13" SumOrder="2 363,52" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0011" AgentName="Максименко Микола (ваг)">
+		<Order OrderNumber="РК000000159858" Stage="Отгружен" TT="ВИХОДЗЬ ЮРІЙ ПЕТРОВИЧ М-Н &quot;НА ОКОЛИЦІ&quot;" Adress="Оратів, Героїв Майдану , 4" SumOrder="2 870,34" InvoiceNumber="РК000000651847" SumInvoice="2 694,4" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
 		<Order OrderNumber="РК000000159853" Stage="Отгружен" TT="ПОПІЛЬ ОКСАНА ВАЛЕРІЇВНА  М-Н &quot;ПРОДУКТИ&quot;" Adress="Гуменне, Л.Українки, 22а" SumOrder="1 004,66" InvoiceNumber="РК000000651845" SumInvoice="828,7" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000159852" Stage="Отгружен" TT="ПОПІЛЬ ОКСАНА ВАЛЕРІЇВНА  М-Н &quot;ПРОДУКТИ&quot;" Adress="Гуменне, Л.Українки, 22а" SumOrder="705,7" InvoiceNumber="РК000000651846" SumInvoice="705,7" F2="FALSE" XPEditor=""/>
