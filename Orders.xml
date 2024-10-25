@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="25.10.2024">
-	<Agent Login="UA002-0038" AgentName="Сус Віталій (ваг)">
-		<Order OrderNumber="РК000000161926" Stage="Новый" TT="ЯРОВА ЛАРИСА МИКОЛАЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Шаргород, СТУСА, 5" SumOrder="1 518" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000161935" Stage="Новый" TT="ГОРЧИЦЯ  ВАЛЕНТИНА МИКОЛАЇВНА (МАГ-Н &quot;ПРОДУКТИ&quot;)" Adress="Шаргород, ПРОЛЕТАРСЬКА, 31 А" SumOrder="2 050,97" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0010" AgentName="Рудий Олег (ваг)">
+		<Order OrderNumber="РК000000161941" Stage="Новый" TT="МІГАЛЬ ВЯЧЕСЛАВ ЮРІЙОВИЧ(МАГАЗИН ПРОДУКТИ)" Adress="Дзюньків, КОМУНІСТИЧНА, 21" SumOrder="2 246,09" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
-	<Agent Login="UA002-0035" AgentName="Мартиневич Артем (ваг)">
-		<Order OrderNumber="РК000000161927" Stage="Новый" TT="БУТКІВСЬКИЙ ВІКТОР АНАТОЛІЙОВИЧ  М-Н ПРОДУКТИ" Adress="Приборівка, Л. УКРАЇНКИ, 3" SumOrder="2 655,24" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000161928" Stage="Отгружен" TT="ШВАБСЬКИЙ ОЛЕКСАНДР ОЛЕКСАНДРОВИЧ  М-Н &quot;ТПП&quot;" Adress="Приборівка, Л. УКРАЇНКИ, 3 А" SumOrder="2 400,14" InvoiceNumber="РК000000653923" SumInvoice="2 400,2" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0022" AgentName="Кельман Артем (фас)">
+		<Order OrderNumber="РК000000161946" Stage="Новый" TT="КУХАР РУСЛАНА ВАСИЛІВНА  М-Н &quot;СОЛОВЕЙКО&quot;" Adress="Козятин, Захисників України, 72" SumOrder="12 237,85" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161945" Stage="НеОбработан" TT="КУХАР РУСЛАНА ВАСИЛІВНА  М-Н &quot;СОЛОВЕЙКО&quot;" Adress="Козятин, Захисників України, 72" SumOrder="27 521,76" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0021" AgentName="Січкар Володимир! (фас)">
+		<Order OrderNumber="РК000000161939" Stage="Обработан" TT="РОМАНЮК ОЛЕНА ІВАНІВНА ПРОДУКТИ" Adress="Пляхова, РАДЯНСЬКА, 12А" SumOrder="1 077,31" InvoiceNumber="РК000000653935" SumInvoice="1 077,3" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
-		<Order OrderNumber="РК000000161930" Stage="Новый" TT="БУРЯЧЕНКО ВІКТОРІЯ ОЛЕКСІЇВНА (МАГАЗИН ПРОДУКТИ)" Adress="Носківці, Центральна, 4" SumOrder="1 146,43" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161930" Stage="Обработан" TT="БУРЯЧЕНКО ВІКТОРІЯ ОЛЕКСІЇВНА (МАГАЗИН ПРОДУКТИ)" Adress="Носківці, Центральна, 4" SumOrder="1 146,43" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000161929" Stage="Отгружен" TT="ЖМУРКО ЛЮДМИЛА ВАСИЛІВНА  МАГАЗИН &quot;ПЕРЛИНА&quot;" Adress="Носківці, Леніна, 5" SumOrder="970,07" InvoiceNumber="РК000000653926" SumInvoice="970,1" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Сус Віталій (ваг)">
+		<Order OrderNumber="РК000000161935" Stage="Обработан" TT="ГОРЧИЦЯ  ВАЛЕНТИНА МИКОЛАЇВНА (МАГ-Н &quot;ПРОДУКТИ&quot;)" Adress="Шаргород, ПРОЛЕТАРСЬКА, 31 А" SumOrder="2 050,97" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161926" Stage="НеОбработан" TT="ЯРОВА ЛАРИСА МИКОЛАЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Шаргород, СТУСА, 5" SumOrder="1 518" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
+		<Order OrderNumber="РК000000161943" Stage="ЧастичноОбработан" TT="СОФИНА ВАСИЛЬ ВОЛОДИМИРОВИЧпродукти" Adress="Вінниця, Литвиненка, 25" SumOrder="722,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161942" Stage="Отгружен" TT="СОФИНА ВАСИЛЬ ВОЛОДИМИРОВИЧпродукти" Adress="Вінниця, Литвиненка, 25" SumOrder="6 884,81" InvoiceNumber="РК000000653933" SumInvoice="6 863,6" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161947" Stage="Отгружен" TT="СОФИНА ВАСИЛЬ ВОЛОДИМИРОВИЧпродукти" Adress="Вінниця, Литвиненка, 25" SumOrder="1,8" InvoiceNumber="РК000000653934" SumInvoice="1,8" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
+		<Order OrderNumber="РК000000161938" Stage="Отгружен" TT="ПЕРЕДРІЙ НАТАЛЯ ВАСИЛІВНА(МАГАЗИН ПРОДУКТИ)" Adress="Жмеринка, Магістральна, 30-Б" SumOrder="1 559,47" InvoiceNumber="РК000000653932" SumInvoice="1 559,5" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0037" AgentName="Галамбоші Анастасія (ваг)">
+		<Order OrderNumber="РК000000161944" Stage="Отгружен" TT="ГОРБАТЮК ОЛЕКСАНДР ВІТАЛІЙОВИЧ" Adress="Липовець, В.ЛИПКІВСЬКОГО, 55 А" SumOrder="1 989,83" InvoiceNumber="РК000000653931" SumInvoice="1 989,9" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
+		<Order OrderNumber="РК000000161936" Stage="Отгружен" TT="ТАРАСЕНКО СЕРГІЙ ВОЛОДИМИРОВИЧ продукти" Adress="Вінниця, МОСКОВСЬКА, 1" SumOrder="3 427,87" InvoiceNumber="РК000000653930" SumInvoice="3 427,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161934" Stage="Отгружен" TT="СОФИНА ВАСИЛЬ ВОЛОДИМИРОВИЧ  ПРОДУКТИ" Adress="Вінниця, Гальчевського, 39" SumOrder="1 529,76" InvoiceNumber="РК000000653928" SumInvoice="1 466,4" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0035" AgentName="Мартиневич Артем (ваг)">
+		<Order OrderNumber="РК000000161928" Stage="Отгружен" TT="ШВАБСЬКИЙ ОЛЕКСАНДР ОЛЕКСАНДРОВИЧ  М-Н &quot;ТПП&quot;" Adress="Приборівка, Л. УКРАЇНКИ, 3 А" SumOrder="2 400,14" InvoiceNumber="РК000000653923" SumInvoice="2 400,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161927" Stage="Отгружен" TT="БУТКІВСЬКИЙ ВІКТОР АНАТОЛІЙОВИЧ  М-Н ПРОДУКТИ" Adress="Приборівка, Л. УКРАЇНКИ, 3" SumOrder="2 655,24" InvoiceNumber="РК000000653929" SumInvoice="2 655,3" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0036" AgentName="Кулик Олег! (ваг)">
 		<Order OrderNumber="РК000000161932" Stage="Отгружен" TT="ОЛІЙНИК МАРІЯ ОЛЕКСІЇВНА МАГ.&quot;ПРОДУКТИ&quot;" Adress="Юхимівка, Гагаріна, 1" SumOrder="1 321,09" InvoiceNumber="РК000000653925" SumInvoice="1 321,1" F2="FALSE" XPEditor=""/>
@@ -18,18 +43,9 @@
 	</Agent>
 	<Agent Login="UA002-0041" AgentName="Самойлов Віталій(ваг)">
 		<Order OrderNumber="РК000000161931" Stage="Отгружен" TT="ДОЛЯНОВСЬКА ВІКТОРІЯ ВІКТОРІВНА МАГ-Н ПРОДУКТИ" Adress="Селище, ЦЕНТРАЛЬНА, 119" SumOrder="1 105,02" InvoiceNumber="РК000000653927" SumInvoice="713,4" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
-		<Order OrderNumber="РК000000161934" Stage="Отгружен" TT="СОФИНА ВАСИЛЬ ВОЛОДИМИРОВИЧ  ПРОДУКТИ" Adress="Вінниця, Гальчевського, 39" SumOrder="1 529,76" InvoiceNumber="РК000000653928" SumInvoice="1 466,4" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000161936" Stage="НеОбработан" TT="ТАРАСЕНКО СЕРГІЙ ВОЛОДИМИРОВИЧ продукти" Adress="Вінниця, МОСКОВСЬКА, 1" SumOrder="3 427,87" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000161940" Stage="НеОбработан" TT="УСАТЮК ВІКТОР ЛЕОНІДОВИЧ М-Н &quot;ВІВАТ&quot;" Adress="Селище, Центральна, авт/зу" SumOrder="1 028,16" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0059" AgentName="Мацьків Максім (ваг)">
 		<Order OrderNumber="РК000000161937" Stage="НеОбработан" TT="ТКАЧУК ЄВГЕНІЙ ПЕТРОВИЧ  маг.-бар &quot;Троянда&quot;" Adress="Копачівка, Шевченка, 34/1" SumOrder="3 543,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0001" AgentName="Мачушенко Тарас (фас)">
-		<Order OrderNumber="РК000000161938" Stage="НеОбработан" TT="ПЕРЕДРІЙ НАТАЛЯ ВАСИЛІВНА(МАГАЗИН ПРОДУКТИ)" Adress="Жмеринка, Магістральна, 30-Б" SumOrder="1 559,47" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0021" AgentName="Січкар Володимир! (фас)">
-		<Order OrderNumber="РК000000161939" Stage="НеОбработан" TT="РОМАНЮК ОЛЕНА ІВАНІВНА ПРОДУКТИ" Adress="Пляхова, РАДЯНСЬКА, 12А" SumOrder="1 077,31" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
