@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="28.10.2024">
+	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
+		<Order OrderNumber="РК000000162930" Stage="Новый" TT="ЛУЦКЕВИЧ НАДІЯ ІГОРІВНА  маг-н Артішок" Adress="Вінниця, Пирогова, 89" SumOrder="1 695,17" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0016" AgentName="Керосина Оксана">
+		<Order OrderNumber="РК000000162789" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Зодчих, 2" SumOrder="1 730,11" InvoiceNumber="РК000000654835" SumInvoice="1 730,11" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000162796" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Келецька, 105" SumOrder="2 895,5" InvoiceNumber="РК000000654836" SumInvoice="2 895,5" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000162802" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Келецька, 121" SumOrder="3 961,08" InvoiceNumber="РК000000654838" SumInvoice="3 961,08" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
-		<Order OrderNumber="РК000000162789" Stage="Отгружен" TT="ТОВ &quot;СІЛЬПО - ФУД&quot;" Adress="Вінниця, Зодчих, 2" SumOrder="1 730,11" InvoiceNumber="РК000000654835" SumInvoice="1 730,11" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000162685" Stage="Отгружен" TT="ФЕСЕНКО ЛЮБОВ МИХАЙЛІВНА МАГАЗИН МАЛІНА" Adress="Немирів, Горького, 95" SumOrder="1 774,9" InvoiceNumber="РК000000654815" SumInvoice="1 774,9" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000162691" Stage="Отгружен" TT="БАЛАКІНА ЛЮДМИЛА ОЛЕКСАНДРІВНА  УКРАЇНОЧКА" Adress="Вінниця, Немирівське шосе, 94" SumOrder="2 420,14" InvoiceNumber="РК000000654817" SumInvoice="2 420,2" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
 		<Order OrderNumber="РК000000162699" Stage="Отгружен" TT="ЩЕРБА АНТОНІНА ПЕТРІВНА  СКЛАД 2" Adress="Вінниця, Короленка, 7" SumOrder="5 234,03" InvoiceNumber="РК000000654843" SumInvoice="5 234,1" F2="FALSE" XPEditor="Павлюк Михайло Якович"/>
