@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="29.10.2024">
+	<Agent Login="UA002-0031" AgentName="Зелінський Владислав (фас)">
+		<Order OrderNumber="РК000000163740" Stage="Обработан" TT="ПОДОЛЯН АНАТОЛІЙ ВАСИЛЬОВИЧ ЧЕРНІВ.Р-Н МАГАЗИН" Adress="Бабчинці, Леніна, 29" SumOrder="1 067,03" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0007" AgentName="Тучинський Сергій (фас)">
-		<Order OrderNumber="РК000000163739" Stage="Новый" TT="ФОКІНА ЛЮДМИЛА ВАСИЛІВНА маг. &quot;Зодіак&quot;" Adress="Віньківці, Центральна (Першотравнева), 14" SumOrder="1 673,96" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000163739" Stage="Отгружен" TT="ФОКІНА ЛЮДМИЛА ВАСИЛІВНА маг. &quot;Зодіак&quot;" Adress="Віньківці, Центральна (Першотравнева), 14" SumOrder="1 673,96" InvoiceNumber="РК000000655671" SumInvoice="1 674" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000163703" Stage="НеОбработан" TT="ГЛУГОВСЬКА ТЕТЯНА ІВАНІВНА маг. &quot;АТВ-маркет&quot;" Adress="Віньківці, Центральна (Першотравнева), 1/1" SumOrder="2 450,56" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000163730" Stage="НеОбработан" TT="КРИВА ГАННА ЛЕОНІДІВНА  супермаркет &quot;Центральний&quot;" Adress="Віньківці, Соборної України, 9" SumOrder="9 719,46" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
@@ -65,6 +68,7 @@
 	</Agent>
 	<Agent Login="UA002-0062" AgentName="Чіпак Євген (ваг)">
 		<Order OrderNumber="РК000000163709" Stage="НеОбработан" TT="СТ САМГОРОДОЦЬКЕ ПРОДТОВАРИ" Adress="Миколаївка, ЛЕНІНА, 36" SumOrder="1 077,29" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000163741" Stage="НеОбработан" TT="БІЛИК ВІТА ЛЕОНІДІВНА  М-Н &quot;ВІТА&quot;" Adress="Широка Гребля, Заводська, 29/5а" SumOrder="2 943,18" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0037" AgentName="Галамбоші Анастасія (ваг)">
 		<Order OrderNumber="РК000000163731" Stage="НеОбработан" TT="ПЕРЕДРІЙ НАТАЛЯ ВАСИЛІВНА(МАГАЗИН ПРОДУКТИ)" Adress="Жмеринка, Магістральна, 30-Б" SumOrder="2 772,25" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
